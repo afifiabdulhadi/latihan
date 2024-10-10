@@ -3,38 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulir Register</title>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Form Registrasi</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #000; /* Latar belakang kuning */
+            height: 100vh; /* Mengatur tinggi tampilan */
+            display: flex;
+            justify-content: center;
+            align-items: center; /* Menjaga form di tengah halaman */
+        }
+        .registration-form {
+            max-width: 400px;
+            width: 100%; /* Memastikan lebar penuh pada perangkat kecil */
+            padding: 20px;
+            background-color: green;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        .registration-form h2 {
+            margin-bottom: 20px;
+        }
+        .registration-form input {
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-
-    <div class="container mt-5">
-        <h2 class="text-center">Formulir Pendaftaran</h2>
-        <form action="register.php" method="POST" class="mt-4">
-            <div class="mb-3">
-                <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" name="name" required>
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" name="email" required>
-            </div>
-            <div class="mb-3">
-                <label for="password" class="form-label">Kata Sandi</label>
-                <input type="password" class="form-control" id="password" name="password" required>
-            </div>
-            <div class="mb-3">
-                <label for="confirm_password" class="form-label">Konfirmasi Kata Sandi</label>
-                <input type="password" class="form-control" id="confirm_password" name="confirm_password" required>
-            </div>
-            <button type="submit" class="btn btn-primary">Daftar</button>
+    <div class="registration-form">
+        <div class="mb-4">
+            <i class="fas fa-user-circle fa-3x"></i>
+        </div>
+        <h2>Registrasi</h2>
+        <form>
+            <input type="text" class="form-control" placeholder="Nama" required>
+            <input type="text" class="form-control" placeholder="Username" required>
+            <input type="password" class="form-control" placeholder="Password" required>
+            <input type="password" class="form-control" placeholder="Re-Password" required>
+            <button type="submit" class="btn btn-primary btn-block">REGISTER</button>
         </form>
+        <p class="mt-3"><a href="#">Kembali ke Login</a></p>
     </div>
 
-    <!-- Bootstrap JS dan Popper.js -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
 </html>
