@@ -49,7 +49,7 @@
 
         button {
             width: 100%;
-            background-color: #007bff;
+            background-color: #28a745; /* Changed to green */
             color: white;
             padding: 10px;
             border: none;
@@ -58,7 +58,7 @@
         }
 
         button:hover {
-            background-color: #0056b3;
+            background-color: #218838; /* Darker green on hover */
         }
     </style>
 </head>
@@ -89,6 +89,3 @@
 <?php include 'footer.php'; ?> <!-- Footer dimasukkan di sini -->
 </body>
 </html>
-
-
-
