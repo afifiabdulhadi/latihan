@@ -1,9 +1,10 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Detail Berita: Pangkalpinang Banjir</title>
+  <title>Detail Berita Kebakaran Hutan</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
@@ -24,20 +25,20 @@
         <!-- Kartu berita -->
         <div class="card">
           <!-- Gambar Berita -->
-          <img src="gambar/banjir.jpg" class="image-detail" alt="Banjir di Pangkalpinang">
+          <img src="gambar/k.jpeg" class="image-detail" alt="Kebakaran Hutan">
+
           <!-- Badan Kartu -->
           <div class="card-body">
-            <h2 class="card-title text-center">  Pangkalpinang Banjir
-            </h2>
+            <h2 class="card-title text-center"> Kebakaran hutan</h2>
             <p class="text-muted text-center">Ditulis pada: 10 Oktober 2024</p>
 
             <!-- Isi Berita -->
             <div class="content-body">
-            <h2 class="mt-4">Pangkalpinang Banjir</h2>
-            <p><strong>Tanggal:</strong> 6 Januari 2022</p>
-            <p>Pangkalpinang, ibu kota Provinsi Bangka Belitung, dilanda banjir pada tanggal 6 Januari 2022 akibat hujan deras yang mengakibatkan meluapnya sungai-sungai di sekitar daerah tersebut. Banjir ini menyebabkan sejumlah rumah dan fasilitas umum terendam air.</p>
-            <p>Banjir ini mengakibatkan kerugian material yang cukup besar, dan upaya evakuasi dilakukan oleh pemerintah setempat. Banyak warga yang terpaksa mengungsi dan mencari tempat yang lebih aman. Pemerintah daerah juga memberikan bantuan kepada korban banjir.</p>
-            <p>Untuk informasi lebih lanjut, masyarakat diimbau untuk mengikuti berita terkini melalui media lokal dan resmi.</p>
+            <h2 class="mt-4">Kebakaran Hutan Mengancam Keberlangsungan Ekosistem</h2>
+            <p><strong>Tanggal:</strong> 11 Oktober 2024</p>
+            <p>Kebakaran hutan yang terjadi di wilayah Sumatera pada tanggal 11 Oktober 2024 telah mengakibatkan kerusakan yang parah. Api mulai melahap area hutan yang kaya akan keanekaragaman hayati, mengancam habitat berbagai spesies yang terancam punah.</p>
+            <p>Pihak berwenang telah mengerahkan tim pemadam kebakaran untuk memadamkan api, namun cuaca yang kering dan angin kencang mempersulit upaya tersebut. Selain itu, asap dari kebakaran ini telah menyebar ke daerah pemukiman, menyebabkan dampak kesehatan bagi warga setempat.</p>
+            <p>Pemerintah menghimbau masyarakat untuk waspada dan menghindari pembakaran lahan serta melaporkan jika melihat kebakaran untuk mencegah penyebaran lebih lanjut.</p>
             </div>
           </div>
         </div>

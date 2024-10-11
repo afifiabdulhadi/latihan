@@ -66,7 +66,7 @@
           <div class="card-body">
             <p class="card-text text-center">Prabowo</p>
           </div>
-          <a href="detailberita1.php" class="btn btn-primary">DETAIL</a>
+          <a href="detailberita4.php" class="btn btn-primary">DETAIL</a>
         </div>
       </div>
 
@@ -79,6 +79,7 @@
           <div class="card-body">
             <p class="card-text text-center">Kebakaran hutan</p>
           </div>
+          <a href="detailberita5.php" class="btn btn-primary">DETAIL</a>
         </div>
       </div>
 
@@ -92,6 +93,7 @@
             <p class="card-text text-center">Sekelompok Remaja Tauran</p>
             
           </div>
+          <a href="detailberita6.php" class="btn btn-primary">DETAIL</a>
         </div>
       </div>
     </div>
