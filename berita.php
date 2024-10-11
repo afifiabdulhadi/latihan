@@ -25,6 +25,7 @@
           <div class="card-body">
             <p class="card-text text-center">Pangkalpinang Banjir</p>
           </div>
+          <a href="detailberita1.php" class="btn btn-primary">Detail</a> <!-- Button for Detail -->
         </div>
       </div>
 
@@ -32,11 +33,12 @@
       <div class="col-md-4 mb-4">
         <div class="card">
           <a href="gambar/dpr.jpeg" target="_blank">
-            <img src="gambar/k.jpeg" class="card-img-top gallery-img" style="height: 200px; object-fit: cover;">
+            <img src="gambar/dpr.jpeg" class="card-img-top gallery-img" style="height: 200px; object-fit: cover;">
           </a>
           <div class="card-body">
             <p class="card-text text-center">Anggota DPR Tertangkap Korupsi</p>
           </div>
+          <a href="detailberita2.php" class="btn btn-primary">Detail</a> <!-- Button for Detail -->
         </div>
       </div>
 
@@ -49,6 +51,7 @@
           <div class="card-body">
             <p class="card-text text-center">Sebuah Mobil Pribadi Kecelakaan Di Jalan Tol</p>
           </div>
+          <a href="detailberita3.php" class="btn btn-primary">Detail</a> <!-- Button for Detail -->
         </div>
       </div>
     </div>
@@ -62,8 +65,8 @@
           <img src="gambar/p.jpeg" class="card-img-top gallery-img" alt="Gambar Prabowo" style="height: 200px; object-fit: cover;">
           <div class="card-body">
             <p class="card-text text-center">Prabowo</p>
-            <a href="detailberita1.php">DETAIL</a>
           </div>
+          <a href="detailberita1.php" class="btn btn-primary">DETAIL</a>
         </div>
       </div>
 
