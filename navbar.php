@@ -187,6 +187,22 @@
         </div>
     </div>
 
+    <div class=" text-center">
+  <div class="row d-flex justify-content-center">
+    <div class="col-sm-12 col-lg-4 col-md-6 bg-danger">
+      Column 1
+    </div>
+    <div class="col-sm-12 col-lg-4 col-md-6 bg-warning">
+      Column 2
+    </div>
+    <div class="col-sm-12 col-lg-4 bg-danger col-md-6">
+      Column 3
+    </div>
+
+   
+  </div>
+</div>
+
     <!-- Bootstrap JS dan Popper.js -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
