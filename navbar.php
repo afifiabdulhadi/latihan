@@ -46,49 +46,54 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <!-- Menu navigasi di kiri -->
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Fitur</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Harga</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Aksi</a></li>
-                            <li><a class="dropdown-item" href="#">Aksi lain</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Sesuatu lainnya</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <!-- Menu login di kanan -->
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#"><i class="fas fa-sign-in-alt"></i> Login</a>
-                    </li>
-                </ul>
-            </div>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- Menu navigasi di kiri -->
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="berita.php">Berita</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Harga</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Dropdown
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Aksi</a></li>
+                        <li><a class="dropdown-item" href="#">Aksi lain</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sesuatu lainnya</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- Menu login dan register di kanan -->
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="reqister.php" href="navbar.php"><i class="fas fa-user-plus"></i> Register</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
+
 
     <!-- Header di bawah navbar dengan dua kolom -->
     <header class="text-center">
@@ -109,8 +114,8 @@
         <div class="row d-flex justify-content-center">
             <div class="col-sm-12 col-lg-6 col-md-6">
                 <img src="gambar/wiki.jpeg" alt="Foto Kami" class="img-fluid">
-                <h3>Alamat:</h3>
-                <p>Jl. Contoh No. 123, Kota Contoh, Provinsi Contoh</p>
+                <h3>Nama:</h3>
+                <p>Wiki Ramadan</p>
                 <h3>Jurusan:</h3>
                 <p>Teknik Informatika, Sistem Informasi</p>
                 <h3>Detail:</h3>
@@ -120,8 +125,8 @@
             </div>
             <div class="col-sm-12 col-lg-6 col-md-6">
                 <img src="gambar/iip.jpeg" alt="Foto Kami" class="img-fluid">
-                <h3>Alamat:</h3>
-                <p>Jl. Contoh No. 123, Kota Contoh, Provinsi Contoh</p>
+                <h3>Nama:</h3>
+                <p>Afifi Abdul Hadi</p>
                 <h3>Jurusan:</h3>
                 <p>Teknik Informatika, Sistem Informasi</p>
                 <h3>Detail:</h3>
@@ -143,11 +148,11 @@
                 <div class="modal-body">
                     <p>Kami adalah lembaga pendidikan yang berfokus pada pengembangan keterampilan di bidang
                         teknologi informasi. Kami menawarkan berbagai program pelatihan dan sertifikasi untuk
-                        membantu siswa mencapai tujuan mereka.</p>
+                        membantu mencapai tujuan mereka.</p>
                     <p>Fasilitas kami meliputi laboratorium komputer yang modern, ruang kelas yang nyaman, dan
                         akses ke berbagai sumber daya online. Kami memiliki tenaga pengajar yang berpengalaman
-                        dan siap membimbing siswa menuju kesuksesan.</p>
-                    <p>Dengan program-program kami, siswa akan mendapatkan pengetahuan dan keterampilan yang
+                        dan siap membimbing menuju kesuksesan.</p>
+                    <p>Dengan program-program kami, akan mendapatkan pengetahuan dan keterampilan yang
                         diperlukan untuk bersaing di dunia kerja yang semakin kompetitif.</p>
                 </div>
                 <div class="modal-footer">
@@ -168,11 +173,11 @@
                 <div class="modal-body">
                     <p>Kami adalah lembaga pendidikan yang berfokus pada pengembangan keterampilan di bidang
                         teknologi informasi. Kami menawarkan berbagai program pelatihan dan sertifikasi untuk
-                        membantu siswa mencapai tujuan mereka.</p>
+                        membantu mencapai tujuan mereka.</p>
                     <p>Fasilitas kami meliputi laboratorium komputer yang modern, ruang kelas yang nyaman, dan
                         akses ke berbagai sumber daya online. Kami memiliki tenaga pengajar yang berpengalaman
-                        dan siap membimbing siswa menuju kesuksesan.</p>
-                    <p>Dengan program-program kami, siswa akan mendapatkan pengetahuan dan keterampilan yang
+                        dan siap membimbing menuju kesuksesan.</p>
+                    <p>Dengan program-program kami, akan mendapatkan pengetahuan dan keterampilan yang
                         diperlukan untuk bersaing di dunia kerja yang semakin kompetitif.</p>
                 </div>
                 <div class="modal-footer">

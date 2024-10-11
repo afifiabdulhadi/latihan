@@ -43,7 +43,7 @@
             <input type="password" class="form-control" placeholder="Re-Password" required>
             <button type="submit" class="btn btn-primary btn-block">REGISTER</button>
         </form>
-        <p class="mt-3"><a href="#">Kembali ke Login</a></p>
+        <p class="mt-3"><a href="login.php">Kembali ke Login</a></p>
     </div>
 
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
