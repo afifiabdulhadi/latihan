@@ -17,21 +17,15 @@
   </style>
 </head>
 <body>
-  <!-- Container utama -->
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-8 offset-md-2">
-        <!-- Kartu berita -->
         <div class="card">
-          <!-- Gambar Berita -->
           <img src="gambar/dpr.jpeg" class="card-img-top content-img" alt="Anggota DPR Tertangkap Korupsi">
-          <!-- Badan Kartu -->
           <div class="card-body">
-            <h2 class="card-title text-center"> Kecelakaan Mobil
+            <h2 class="card-title text-center"> Anggota DPR Tertangkap Korupsi
             </h2>
-            <p class="text-muted text-center">Ditulis pada: 10 Oktober 2024</p>
 
-            <!-- Isi Berita -->
             <div class="content-body">
             <h2 class="card-title text-center">Anggota DPR Tertangkap Korupsi</h2>
             <p class="text-muted text-center">Ditulis pada: 10 Oktober 2024</p>

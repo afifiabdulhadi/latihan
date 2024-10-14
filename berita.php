@@ -9,7 +9,7 @@
   <style>
     .gallery-img {
       height: 100px;
-      object-fit: cover; /* Menyesuaikan gambar agar tidak terdistorsi */
+      object-fit: cover; 
     }
   </style>
 </head>

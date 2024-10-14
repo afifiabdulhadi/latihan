@@ -17,21 +17,16 @@
   </style>
 </head>
 <body>
-  <!-- Container utama -->
   <div class="container mt-5">
     <div class="row">
       <div class="col-md-8 offset-md-2">
-        <!-- Kartu berita -->
         <div class="card">
-          <!-- Gambar Berita -->
           <img src="gambar/banjir.jpg" class="image-detail" alt="Banjir di Pangkalpinang">
-          <!-- Badan Kartu -->
           <div class="card-body">
             <h2 class="card-title text-center">  Pangkalpinang Banjir
             </h2>
             <p class="text-muted text-center">Ditulis pada: 10 Oktober 2024</p>
 
-            <!-- Isi Berita -->
             <div class="content-body">
             <h2 class="mt-4">Pangkalpinang Banjir</h2>
             <p><strong>Tanggal:</strong> 6 Januari 2022</p>
@@ -45,7 +40,6 @@
     </div>
   </div>
 
-  <!-- Bootstrap JS (opsional) -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
