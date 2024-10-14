@@ -90,7 +90,7 @@
             <img src="gambar/t.jpeg" class="card-img-top gallery-img"  style="height: 200px; object-fit: cover;">
           </a>
           <div class="card-body">
-            <p class="card-text text-center">Sekelompok Remaja Tauran</p>
+            <p class="card-text text-center">Salaseorang Remaja Tertangkap Usai Tauran</p>
             
           </div>
           <a href="detailberita6.php" class="btn btn-primary">DETAIL</a>

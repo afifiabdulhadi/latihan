@@ -43,6 +43,7 @@
     <div class="text-center mt-4">
         <a href="berita.php" class="btn btn-secondary">Kembali ke Berita</a>
     </div>
+    <?php include 'footer.php'; ?> <!-- Footer dimasukkan di sini -->
 </div>
 
 <!-- Bootstrap JS (optional) -->
@@ -51,4 +52,5 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
+
 </html>
