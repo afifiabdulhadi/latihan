@@ -9,7 +9,7 @@
   <style>
     .gallery-img {
       height: 100px;
-      object-fit: cover; /* Menyesuaikan gambar agar tidak terdistorsi */
+      object-fit: cover; 
     }
   </style>
 </head>
@@ -25,6 +25,7 @@
           <div class="card-body">
             <p class="card-text text-center">Pangkalpinang Banjir</p>
           </div>
+          <a href="detailberita1.php" class="btn btn-primary">Detail</a> <!-- Button for Detail -->
         </div>
       </div>
 
@@ -32,11 +33,12 @@
       <div class="col-md-4 mb-4">
         <div class="card">
           <a href="gambar/dpr.jpeg" target="_blank">
-            <img src="gambar/k.jpeg" class="card-img-top gallery-img" style="height: 200px; object-fit: cover;">
+            <img src="gambar/dpr.jpeg" class="card-img-top gallery-img" style="height: 200px; object-fit: cover;">
           </a>
           <div class="card-body">
             <p class="card-text text-center">Anggota DPR Tertangkap Korupsi</p>
           </div>
+          <a href="detailberita2.php" class="btn btn-primary">Detail</a> <!-- Button for Detail -->
         </div>
       </div>
 
@@ -49,6 +51,7 @@
           <div class="card-body">
             <p class="card-text text-center">Sebuah Mobil Pribadi Kecelakaan Di Jalan Tol</p>
           </div>
+          <a href="detailberita3.php" class="btn btn-primary">Detail</a> <!-- Button for Detail -->
         </div>
       </div>
     </div>
@@ -59,36 +62,36 @@
       <!-- Gallery item 4 -->
       <div class="col-md-4 mb-4">
         <div class="card">
-          <img src="gambar/p.jpeg" class="card-img-top gallery-img" alt="Gambar Prabowo" style="height: 200px; object-fit: cover;">
+          <img src="gambar/prabowo.jpg" class="card-img-top gallery-img" alt="Gambar Prabowo" style="height: 200px; object-fit: cover;">
           <div class="card-body">
             <p class="card-text text-center">Prabowo</p>
-            <a href="detailberita1.php">DETAIL</a>
           </div>
+          <a href="detailberita4.php" class="btn btn-primary">DETAIL</a>
         </div>
       </div>
 
       <!-- Gallery item 5 -->
       <div class="col-md-4 mb-4">
         <div class="card">
-          <a href="gambar/k.jpeg" target="_blank">
-            <img src="gambar/k.jpeg" class="card-img-top gallery-img" style="height: 200px; object-fit: cover;">
+          <a href="gambar/kebakaranhutan.jpg" target="_blank">
+            <img src="gambar/kebakaranhutan.jpg" class="card-img-top gallery-img" style="height: 200px; object-fit: cover;">
           </a>
           <div class="card-body">
             <p class="card-text text-center">Kebakaran hutan</p>
           </div>
+          <a href="detailberita5.php" class="btn btn-primary">DETAIL</a>
         </div>
       </div>
 
       <!-- Gallery item 6 -->
       <div class="col-md-4 mb-4">
         <div class="card">
-          <a href="gambar/t.jpeg" target="_blank">
-            <img src="gambar/t.jpeg" class="card-img-top gallery-img"  style="height: 200px; object-fit: cover;">
-          </a>
+            <img src="gambar/tauran.jpg" class="card-img-top gallery-img"  style="height: 200px; object-fit: cover;">
           <div class="card-body">
-            <p class="card-text text-center">Sekelompok Remaja Tauran</p>
+            <p class="card-text text-center">Salaseorang Remaja Tertangkap Usai Tauran</p>
             
           </div>
+          <a href="detailberita6.php" class="btn btn-primary">DETAIL</a>
         </div>
       </div>
     </div>

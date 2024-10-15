@@ -1,10 +1,11 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Detail Berita: Pangkalpinang Banjir</title>
-  <!-- Bootstrap CSS -->
+  <title>Detail Berita Tauran</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
     .content-img {
@@ -21,18 +22,17 @@
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <div class="card">
-          <img src="gambar/banjir.jpg" class="image-detail" alt="Banjir di Pangkalpinang">
+          <img src="gambar/tauran.jpg" class="content-img" alt="Sekelompok Remaja Tawuran">
+
           <div class="card-body">
-            <h2 class="card-title text-center">  Pangkalpinang Banjir
-            </h2>
+            <h2 class="card-title text-center"> Sekelompok Remaja Tawuran</h2>
             <p class="text-muted text-center">Ditulis pada: 10 Oktober 2024</p>
 
             <div class="content-body">
-            <h2 class="mt-4">Pangkalpinang Banjir</h2>
-            <p><strong>Tanggal:</strong> 6 Januari 2022</p>
-            <p>Pangkalpinang, ibu kota Provinsi Bangka Belitung, dilanda banjir pada tanggal 6 Januari 2022 akibat hujan deras yang mengakibatkan meluapnya sungai-sungai di sekitar daerah tersebut. Banjir ini menyebabkan sejumlah rumah dan fasilitas umum terendam air.</p>
-            <p>Banjir ini mengakibatkan kerugian material yang cukup besar, dan upaya evakuasi dilakukan oleh pemerintah setempat. Banyak warga yang terpaksa mengungsi dan mencari tempat yang lebih aman. Pemerintah daerah juga memberikan bantuan kepada korban banjir.</p>
-            <p>Untuk informasi lebih lanjut, masyarakat diimbau untuk mengikuti berita terkini melalui media lokal dan resmi.</p>
+            <p><strong>Tanggal:</strong> 11 Oktober 2024</p>
+            <p>Pada tanggal 11 Oktober 2024, sekelompok remaja terlibat tawuran di kawasan Jakarta. Kejadian ini mengakibatkan beberapa orang terluka dan kerusakan pada fasilitas umum. Tawuran dipicu oleh perselisihan antar kelompok remaja yang berlangsung di tengah jalan raya.</p>
+            <p>Polisi yang menerima laporan segera menuju lokasi untuk mengendalikan situasi dan mencegah tawuran lebih lanjut. Beberapa pelaku tawuran berhasil ditangkap dan diambil tindakan oleh pihak kepolisian.</p>
+            <p>Pihak berwenang mengimbau masyarakat untuk tidak terlibat dalam tindakan kekerasan dan menyarankan agar orang tua lebih memperhatikan pergaulan anak-anak mereka untuk mencegah insiden serupa di masa depan.</p>
             </div>
           </div>
         </div>

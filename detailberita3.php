@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Detail Berita: Pangkalpinang Banjir</title>
-  <!-- Bootstrap CSS -->
+  <title>Detail Berita Kecelakaan Mobil Pribadi</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
     .content-img {
@@ -21,17 +20,17 @@
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <div class="card">
-          <img src="gambar/banjir.jpg" class="image-detail" alt="Banjir di Pangkalpinang">
+          <img src="gambar/kec.jpeg" class="image-detail" alt="Kecelakaan Mobil">
           <div class="card-body">
-            <h2 class="card-title text-center">  Pangkalpinang Banjir
+            <h2 class="card-title text-center"> Kecelakaan Mobil
             </h2>
             <p class="text-muted text-center">Ditulis pada: 10 Oktober 2024</p>
 
             <div class="content-body">
-            <h2 class="mt-4">Pangkalpinang Banjir</h2>
-            <p><strong>Tanggal:</strong> 6 Januari 2022</p>
-            <p>Pangkalpinang, ibu kota Provinsi Bangka Belitung, dilanda banjir pada tanggal 6 Januari 2022 akibat hujan deras yang mengakibatkan meluapnya sungai-sungai di sekitar daerah tersebut. Banjir ini menyebabkan sejumlah rumah dan fasilitas umum terendam air.</p>
-            <p>Banjir ini mengakibatkan kerugian material yang cukup besar, dan upaya evakuasi dilakukan oleh pemerintah setempat. Banyak warga yang terpaksa mengungsi dan mencari tempat yang lebih aman. Pemerintah daerah juga memberikan bantuan kepada korban banjir.</p>
+            <h2 class="mt-4">Sebuah Mobil Pribadi Kecelakaan Di Jalan Tol</h2>
+            <p><strong>Tanggal:</strong> 10 Oktober 2024</p>
+            <p>Kecelakaan terjadi di Jalan Tol Jakarta-Cikampek pada tanggal 10 Oktober 2024. Mobil pribadi yang terlibat dalam kecelakaan tersebut mengalami tabrakan dengan kendaraan lain, mengakibatkan kerusakan parah pada mobil dan melukai beberapa penumpang.</p>
+            <p>Pihak kepolisian segera merespons kejadian ini dan melakukan evakuasi terhadap korban serta melakukan penyelidikan lebih lanjut terkait penyebab kecelakaan. Dalam insiden ini, pengemudi diingatkan untuk selalu berhati-hati saat berkendara, terutama di jalan tol yang memiliki kecepatan tinggi.</p>
             <p>Untuk informasi lebih lanjut, masyarakat diimbau untuk mengikuti berita terkini melalui media lokal dan resmi.</p>
             </div>
           </div>
