@@ -22,7 +22,7 @@
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <div class="card">
-          <img src="gambar/t.jpeg" class="content-img" alt="Sekelompok Remaja Tawuran">
+          <img src="gambar/tauran.jpg" class="content-img" alt="Sekelompok Remaja Tawuran">
 
           <div class="card-body">
             <h2 class="card-title text-center"> Sekelompok Remaja Tawuran</h2>

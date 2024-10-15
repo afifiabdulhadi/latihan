@@ -21,7 +21,7 @@
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <div class="card">
-          <img src="gambar/k.jpeg" class="image-detail" alt="Kebakaran Hutan">
+          <img src="gambar/kebakaranhutan.jpg" class="image-detail" alt="Kebakaran Hutan">
 
           <div class="card-body">
             <h2 class="card-title text-center"> Kebakaran hutan</h2>

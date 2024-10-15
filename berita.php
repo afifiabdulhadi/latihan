@@ -62,7 +62,7 @@
       <!-- Gallery item 4 -->
       <div class="col-md-4 mb-4">
         <div class="card">
-          <img src="gambar/p.jpeg" class="card-img-top gallery-img" alt="Gambar Prabowo" style="height: 200px; object-fit: cover;">
+          <img src="gambar/prabowo.jpg" class="card-img-top gallery-img" alt="Gambar Prabowo" style="height: 200px; object-fit: cover;">
           <div class="card-body">
             <p class="card-text text-center">Prabowo</p>
           </div>
@@ -73,8 +73,8 @@
       <!-- Gallery item 5 -->
       <div class="col-md-4 mb-4">
         <div class="card">
-          <a href="gambar/k.jpeg" target="_blank">
-            <img src="gambar/k.jpeg" class="card-img-top gallery-img" style="height: 200px; object-fit: cover;">
+          <a href="gambar/kebakaranhutan.jpg" target="_blank">
+            <img src="gambar/kebakaranhutan.jpg" class="card-img-top gallery-img" style="height: 200px; object-fit: cover;">
           </a>
           <div class="card-body">
             <p class="card-text text-center">Kebakaran hutan</p>
@@ -86,9 +86,7 @@
       <!-- Gallery item 6 -->
       <div class="col-md-4 mb-4">
         <div class="card">
-          <a href="gambar/t.jpeg" target="_blank">
-            <img src="gambar/t.jpeg" class="card-img-top gallery-img"  style="height: 200px; object-fit: cover;">
-          </a>
+            <img src="gambar/tauran.jpg" class="card-img-top gallery-img"  style="height: 200px; object-fit: cover;">
           <div class="card-body">
             <p class="card-text text-center">Salaseorang Remaja Tertangkap Usai Tauran</p>
             

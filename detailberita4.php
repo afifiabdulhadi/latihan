@@ -20,7 +20,7 @@
     <div class="row">
       <div class="col-md-8 offset-md-2">
         <div class="card">
-          <img src="gambar/p.jpeg" class="card-img-top content-img" alt="Gambar Prabowo">
+          <img src="gambar/prabowo.jpg" class="card-img-top content-img" alt="Gambar Prabowo">
 
           <div class="card-body">
             <h2 class="card-title text-center">Prabowo Subianto dan Perjalanan Politiknya</h2>
