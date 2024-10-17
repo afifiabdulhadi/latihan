@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Berita</title>
+  <title class="shadow">Berita</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <style>
@@ -14,7 +14,7 @@
   </style>
 </head>
 <body>
-  <h1><center>BERITA</center></h1>
+  <h1 class=" text-center">BERITA</h1>
 
   <div class="container mt-5">
     <div class="row">
@@ -22,8 +22,8 @@
       <div class="col-md-4 mb-4">
         <div class="card">
           <img src="gambar/banjir.jpg" class="card-img-top gallery-img" style="height: 200px; object-fit: cover;">
-          <div class="card-body">
-            <p class="card-text text-center">Pangkalpinang Banjir</p>
+          <div class="card-body shadow">
+            <p class="card-text text-center text-capitalize fw-bolder"  style="height: 24px">Pangkalpinang Banjir</p>
           </div>
           <a href="detailberita1.php" class="btn btn-primary">Detail</a> <!-- Button for Detail -->
         </div>
@@ -31,12 +31,12 @@
 
       <!-- Gallery item 2 -->
       <div class="col-md-4 mb-4">
-        <div class="card">
+        <div class="card shadow">
           <a href="gambar/dpr.jpeg" target="_blank">
             <img src="gambar/dpr.jpeg" class="card-img-top gallery-img" style="height: 200px; object-fit: cover;">
           </a>
-          <div class="card-body">
-            <p class="card-text text-center">Anggota DPR Tertangkap Korupsi</p>
+          <div class="card-body shadow">
+            <p class="card-text text-center text-capitalize"  style="height: 24px">Anggota DPR Tertangkap Korupsi</p>
           </div>
           <a href="detailberita2.php" class="btn btn-primary">Detail</a> <!-- Button for Detail -->
         </div>
@@ -44,12 +44,12 @@
 
       <!-- Gallery item 3 -->
       <div class="col-md-4 mb-4">
-        <div class="card">
+        <div class="card shadow">
           <a href="gambar/kec.jpeg" target="_blank">
             <img src="gambar/kec.jpeg" class="card-img-top gallery-img"  style="height: 200px; object-fit: cover;">
           </a>
           <div class="card-body">
-            <p class="card-text text-center">Sebuah Mobil Pribadi Kecelakaan Di Jalan Tol</p>
+            <p class="card-text text-center text-right small-text text-nowrap" style="height: 24px">Sebuah Mobil Pribadi Kecelakaan Di Jalan Tol</p>
           </div>
           <a href="detailberita3.php" class="btn btn-primary">Detail</a> <!-- Button for Detail -->
         </div>
@@ -61,10 +61,10 @@
     <div class="row">
       <!-- Gallery item 4 -->
       <div class="col-md-4 mb-4">
-        <div class="card">
+        <div class="card shadow">
           <img src="gambar/prabowo.jpg" class="card-img-top gallery-img" alt="Gambar Prabowo" style="height: 200px; object-fit: cover;">
           <div class="card-body">
-            <p class="card-text text-center">Prabowo</p>
+            <p class="card-text text-center text-capitalize"  style="height: 24px">Prabowo</p>
           </div>
           <a href="detailberita4.php" class="btn btn-primary">DETAIL</a>
         </div>
@@ -72,12 +72,12 @@
 
       <!-- Gallery item 5 -->
       <div class="col-md-4 mb-4">
-        <div class="card">
+        <div class="card shadow">
           <a href="gambar/kebakaranhutan.jpg" target="_blank">
             <img src="gambar/kebakaranhutan.jpg" class="card-img-top gallery-img" style="height: 200px; object-fit: cover;">
           </a>
           <div class="card-body">
-            <p class="card-text text-center">Kebakaran hutan</p>
+            <p class="card-text text-center text-capitalize"  style="height: 24px">Kebakaran hutan</p>
           </div>
           <a href="detailberita5.php" class="btn btn-primary">DETAIL</a>
         </div>
@@ -85,10 +85,10 @@
 
       <!-- Gallery item 6 -->
       <div class="col-md-4 mb-4">
-        <div class="card">
+        <div class="card shadow">
             <img src="gambar/tauran.jpg" class="card-img-top gallery-img"  style="height: 200px; object-fit: cover;">
           <div class="card-body">
-            <p class="card-text text-center">Salaseorang Remaja Tertangkap Usai Tauran</p>
+            <p class="card-text text-center text-nowrap text-capitalize"  style="height: 24px">salaseorang Remaja Tertangkap Usai Tauran</p>
             
           </div>
           <a href="detailberita6.php" class="btn btn-primary">DETAIL</a>

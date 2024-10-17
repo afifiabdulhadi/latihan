@@ -43,7 +43,7 @@
     <div class="text-center mt-4">
         <a href="berita.php" class="btn btn-secondary">Kembali ke Berita</a>
     </div>
-    <?php include 'footer.php'; ?> <!-- Footer dimasukkan di sini -->
+   
 </div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

@@ -23,9 +23,6 @@
         <div class="card">
           <img src="gambar/dpr.jpeg" class="card-img-top content-img" alt="Anggota DPR Tertangkap Korupsi">
           <div class="card-body">
-            <h2 class="card-title text-center"> Anggota DPR Tertangkap Korupsi
-            </h2>
-
             <div class="content-body">
             <h2 class="card-title text-center">Anggota DPR Tertangkap Korupsi</h2>
             <p class="text-muted text-center">Ditulis pada: 10 Oktober 2024</p>
