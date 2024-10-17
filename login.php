@@ -40,8 +40,8 @@
                     <input type="password" class="form-control" name="password" id="password" required>
                 </div>
                 <a href="lupasandi.php">lupakatasandi</a>
-                <button type="submit" class="btn">Login</button>
-            </form>
+                <p type="submit" class="btn btn-register btn-block"><a href="reqister.php">Login</></a></p>
+                </form>
             
         </div>
     </div>

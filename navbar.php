@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="id">
 
@@ -6,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar</title>
     <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         /* Gaya untuk video latar belakang */
@@ -20,6 +22,9 @@
             z-index: -1;
             /* Menempatkan video di belakang konten */
         }
+        body {
+    font-family: 'Poppins', sans-serif;
+}
 
         /* Gaya untuk header */
         header {
@@ -29,6 +34,7 @@
         }
 
         .header-img {
+            border-radius: 150%;
             max-width: 70%;
             /* Membuat gambar sedikit lebih lebar */
             width: 50%;
@@ -36,7 +42,6 @@
             height: auto;
             /* Menjaga rasio gambar */
         }
-
         .about-us {
             padding: 40px 0;
             /* Menambahkan padding di section About Us */
@@ -86,18 +91,12 @@
 
 <body>
 
-    <!-- Video sebagai latar belakang -->
-    <video autoplay muted loop class="video-background">
-        <source src="video/#.mp4" type="video/mp4"> <!-- Ganti dengan nama file video Anda -->
-        Your browser does not support the video tag.
-    </video>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="container navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="gambar/logo.png" alt="#" style="width: 40px; height: auto;">
-                <!-- Ganti dengan nama file logo Anda -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -107,19 +106,15 @@
                 <!-- Menu navigasi di kiri -->
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                        <a class="nav-link active" aria-current="page" href="navbar.php">Beranda</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="berita.php">Berita</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Harga</a>
+                        <a class="nav-link" href="index.php">Tambah Berita</a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Aksi</a></li>
                             <li><a class="dropdown-item" href="#">Aksi lain</a></li>
@@ -135,9 +130,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="register.php"><i class="fas fa-user-plus"></i> Register</a>
-                    </li>
+                   
                 </ul>
             </div>
         </div>
@@ -145,26 +138,26 @@
 
     <!-- Header di bawah navbar dengan dua kolom -->
     <header class="text-center">
-        <div class="row">
-            <div class="col-sm-12 col-lg-8 col-md-6">
-                <img src="gambar/wakduo.jpeg" alt="Gambar" class="header-img">
+        <div class="container">
+            <div class="container col-sm-12 col-lg-8 col-md-6">
+                <img src="gambar/cs.jpeg" alt="Gambar" class="header-img">
             </div>
-            <div class="col-sm-12 col-lg-4 col-md-6">
-                <h1>Selamat Datang di Situs Kami</h1>
-                <h3>Temukan berbagai musik yang menarik di sini!</h3>
-                <h4>Agar lebih Asik</h4>
+            <div class="container col-sm-12 col-lg-4 col-md-6">
+            <h3 class="fst-italic">Selamat Datang di Situs Kami</h3>
+    <h3 class="fst-italic">Temukan berbagai musik menarik di sini!</h3>
+    <h4 class="fst-italic">Agar pengalaman lebih asik, jelajahi sekarang!</h4>
                 <ul class="list-group">
                     <li class="list-group-item">
                         <strong>foreveryoung:</strong> foreveryoung
                         <audio controls>
-                            <source src="audio/forever.mp3" type="audio/mp3"> <!-- Ganti dengan nama file audio Anda -->
+                            <source src="audio/forever.mp3" type="audio/mp3"> 
                             Your browser does not support the audio tag.
                         </audio>
                     </li>
                     <li class="list-group-item">
                         <strong>Bunga Abadi:</strong> bunga abadi
                         <audio controls>
-                            <source src="audio/abadi.mp3" type="audio/mp3"> <!-- Ganti dengan nama file audio Anda -->
+                            <source src="audio/abadi.mp3" type="audio/mp3"> 
                             Your browser does not support the audio tag.
                         </audio>
                     </li>
@@ -172,14 +165,13 @@
                         <strong>payphone:</strong> payphone
                         <audio controls>
                             <source src="audio/payphone.mp3" type="audio/mp3">
-                            <!-- Ganti dengan nama file audio Anda -->
                             Your browser does not support the audio tag.
                         </audio>
                     </li>
                     <li class="list-group-item">
                         <strong>snap:</strong> snap
                         <audio controls>
-                            <source src="audio/snap.mp3" type="audio/mp3"> <!-- Ganti dengan nama file audio Anda -->
+                            <source src="audio/snap.mp3" type="audio/mp3"> 
                             Your browser does not support the audio tag.
                         </audio>
                     </li>
@@ -187,7 +179,7 @@
                         <strong>It Wil Rain:</strong> It Wil Rain
                         <audio controls>
                             <source src="audio/itwillrain.mp3" type="audio/mp3">
-                            <!-- Ganti dengan nama file audio Anda -->
+                           
                             Your browser does not support the audio tag.
                         </audio>
                     </li>
@@ -195,15 +187,6 @@
                         <strong>Daylight:</strong> Daylight
                         <audio controls>
                             <source src="audio/daylight.mp3" type="audio/mp3">
-                            <!-- Ganti dengan nama file audio Anda -->
-                            Your browser does not support the audio tag.
-                        </audio>
-                    </li>
-                    <li class="list-group-item">
-                        <strong>Somewhere:</strong> Somewhere
-                        <audio controls>
-                            <source src="audio/Somewhere.mp3" type="audio/mp3">
-                            <!-- Ganti dengan nama file audio Anda -->
                             Your browser does not support the audio tag.
                         </audio>
                     </li>
@@ -214,34 +197,26 @@
 
     <!-- Section About Us -->
     <div class="about-us">
-        <h2>Tentang Kami</h2>
-        <div class="row d-flex justify-content-center">
-            <div class="col-sm-12 col-lg-6 col-md-6">
-                <img src="gambar/wiki.jpeg" alt="Foto Kami" class="img-fluid">
-                <h3>Nama:</h3>
-                <p>Wiki Ramadan</p>
-                <h3>Jurusan:</h3>
-                <p>Teknik Informatika, Sistem Informasi</p>
-                <h3>Detail:</h3>
-                <button type="button" class="btn btn-info btn-detail" data-bs-toggle="modal"
-                    data-bs-target="#aboutModal1">
-                    Lihat Detail
-                </button>
-            </div>
-            <div class="col-sm-12 col-lg-6 col-md-6">
-                <img src="gambar/iip.jpeg" alt="Foto Kami" class="img-fluid">
-                <h3>Nama:</h3>
-                <p>Afifi Abdul Hadi</p>
-                <h3>Jurusan:</h3>
-                <p>Teknik Informatika, Sistem Informasi</p>
-                <h3>Detail:</h3>
-                <button type="button" class="btn btn-info btn-detail" data-bs-toggle="modal"
-                    data-bs-target="#aboutModal2">
-                    Lihat Detail
-                </button>
-            </div>
+    <h2>Tentang Kami</h2>
+    <div class="row d-flex justify-content-center">
+        <div class="col-sm-12 col-lg-6 col-md-6">
+            <img src="gambar/wiki.jpeg" alt="Foto Kami" class="img-fluid">
+            <h3 class="fst-italic">Nama:</h3>
+            <p class="fst-italic">Wiki Ramadan</p>
+            <h3 class="fst-italic">Jurusan:</h3>
+            <p class="fst-italic">Teknik Informatika, Sistem Informasi</p>
+            <a href="detailkami1.php" class="btn btn-info btn-detail">Lihat Detail</a> <!-- Menuju halaman detail -->
+        </div>
+        <div class="col-sm-12 col-lg-6 col-md-6">
+            <img src="gambar/iip.jpeg" alt="Foto Kami" class="img-fluid">
+            <h3 class="fst-italic">Nama:</h3>
+            <p class="fst-italic">Afifi Abdul Hadi</p>
+            <h3 class="fst-italic">Jurusan:</h3>
+            <p class="fst-italic">Teknik Informatika, Sistem Informasi</p>
+            <a href="detailkami22.php" class="btn btn-info btn-detail">Lihat Detail</a> <!-- Menuju halaman detail -->
         </div>
     </div>
+</div>
 
 
     <!-- Modal untuk Detail About Us 1 -->
@@ -287,7 +262,7 @@
                     <p>Dengan program-program kami, akan mendapatkan pengetahuan dan keterampilan yang
                         diperlukan untuk bersaing di dunia kerja yang semakin kompetitif.</p>
                 </div>
-                <div class="modal-footer">
+                <div class="modal-footer"> 
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
                 </div>
             </div>
@@ -296,7 +271,7 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Nama Perusahaan. Semua Hak Dilindungi.</p>
+        <p>&copy; 2024 lubuksikaping. kanawk.</p>
     </footer>
 
     <!-- Bootstrap JS dan Popper.js -->
