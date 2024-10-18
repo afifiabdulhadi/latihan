@@ -69,16 +69,6 @@ h1{
   background-color: #0056b3; /* Warna tombol saat hover */
 }
 
-footer {
-  background-color: #6c757d !important; /* Warna abu-abu */
-  color: rgb(255, 255, 255) !important; /* Ubah warna teks ke putih untuk kontras yang lebih baik */
-  text-align: center !important;
-  padding: 10px !important;
-  position: relative !important;
-  bottom: 0 !important;
-  width: 100% !important;
-}
-
 
 
 
