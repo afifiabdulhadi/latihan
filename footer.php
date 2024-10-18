@@ -8,7 +8,6 @@
 </head>
 <body>
     <footer class="bg-primary text-white mt-5">
-       
         <div class="bg-secondary text-center py-2">
             <p class="mb-0">&copy; 17 Okcober 2024</p>
         </div>
