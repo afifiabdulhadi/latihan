@@ -1,0 +1,86 @@
+/* styles.css */
+
+/* Gaya untuk seluruh halaman */
+body {
+  font-family: Arial, sans-serif; /* Mengatur font untuk seluruh halaman */
+  background-color: #f8f9fa; /* Warna latar belakang halaman */
+  margin: 0; /* Menghilangkan margin default */
+  padding: 0; /* Menghilangkan padding default */
+}
+h1{
+  text-emphasis: none;
+}
+
+/* Kontainer untuk berita */
+.container {
+  max-width: 1200px; /* Lebar maksimum kontainer */
+  margin: auto; /* Memusatkan kontainer */
+  padding: 20px; /* Padding di dalam kontainer */
+}
+
+/* Baris berita */
+.row {
+  display: flex; /* Menggunakan flexbox untuk tata letak */
+  flex-wrap: wrap; /* Memungkinkan baris untuk membungkus */
+  justify-content: space-between; /* Menyebarkan kolom dengan ruang */
+}
+
+/* Kolom berita */
+.col {
+  flex: 1; /* Membuat kolom mengambil ruang yang sama */
+  min-width: 300px; /* Lebar minimum kolom */
+  margin-bottom: 20px; /* Margin bawah untuk jarak antar kolom */
+  background-color: white; /* Warna latar belakang kolom */
+  border-radius: 8px; /* Sudut membulat */
+  box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1); /* Bayangan halus */
+}
+
+/* Gambar berita */
+.news-img {
+  width: 80%; /* Mengatur gambar agar mengambil lebar kolom */
+  height: auto; /* Mengatur tinggi otomatis untuk menjaga proporsi */
+  border-radius: 8px 8px 0 0; /* Sudut membulat bagian atas gambar */
+}
+
+/* Judul dan isi berita */
+.news-title {
+  font-size: 18px; /* Ukuran font untuk judul */
+  margin: 10px; /* Margin di sekitar judul */
+}
+
+.news-body {
+  font-size: 14px; /* Ukuran font untuk isi berita */
+  margin: 10px; /* Margin di sekitar isi berita */
+  color: #555; /* Warna teks untuk isi berita */
+}
+
+/* Tombol */
+.btn {
+  display: inline-block; /* Menjadikan tombol sebagai inline-block */
+  margin: 10px; /* Margin di sekitar tombol */
+  padding: 10px 15px; /* Padding di dalam tombol */
+  background-color: #007bff; /* Warna latar belakang tombol */
+  color: white; /* Warna teks tombol */
+  text-decoration: none; /* Menghilangkan garis bawah */
+  border-radius: 5px; /* Sudut membulat tombol */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Warna tombol saat hover */
+}
+
+footer {
+  background-color: #6c757d !important; /* Warna abu-abu */
+  color: rgb(255, 255, 255) !important; /* Ubah warna teks ke putih untuk kontras yang lebih baik */
+  text-align: center !important;
+  padding: 10px !important;
+  position: relative !important;
+  bottom: 0 !important;
+  width: 100% !important;
+}
+
+
+
+
+
+

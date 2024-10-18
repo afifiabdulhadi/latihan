@@ -6,25 +6,17 @@
   <title>Detail Berita Anggota DPR Korupsi</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <style>
-    .content-img {
-      height: 300px;
-      object-fit: cover;
-    }
-    .content-body {
-      line-height: 1.6;
-    }
-  </style>
+
 </head>
 <body>
-  <div class="container mt-5">
+  <div class="container">
     <div class="row">
-      <div class="col-md-8 offset-md-2">
+      <div class="col-lg">
         <div class="card">
-          <img src="gambar/dpr.jpeg" class="card-img-top content-img" alt="Anggota DPR Tertangkap Korupsi">
+          <img src="gambar/korup.jpg" class="img-thumbnail rounded mx-auto d-block" style="width: 900px;"alt="Anggota DPR Tertangkap Korupsi">
           <div class="card-body">
             <div class="content-body">
-            <h2 class="card-title text-center">Anggota DPR Tertangkap Korupsi</h2>
+            <h2 class="text-center">Anggota DPR Tertangkap Korupsi</h2>
             <p class="text-muted text-center">Ditulis pada: 10 Oktober 2024</p>
             <p>Kasus korupsi kembali mencoreng wajah perpolitikan Indonesia. Seorang anggota DPR RI telah ditangkap dalam operasi tangkap tangan (OTT) oleh Komisi Pemberantasan Korupsi (KPK). Dugaan ini melibatkan suap dalam proyek pemerintah yang seharusnya ditujukan untuk kepentingan publik.</p>
 
