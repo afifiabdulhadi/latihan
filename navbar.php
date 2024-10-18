@@ -51,6 +51,8 @@
 
         .about-us img {
             max-width: 30%;
+
+            border-radius: 50%;
             /* Membuat gambar responsif */
             height: auto;
             /* Menjaga rasio gambar */

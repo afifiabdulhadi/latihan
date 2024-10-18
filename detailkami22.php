@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DetailAfifi Abdul Hadi</title>
+    <title>Afifi Abdul Hadi</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
-            background-color: #f8f9fa; /* Warna latar belakang yang lembut */
+            background-color: #f8f9fa;
         }
         .container {
-            max-width: 800px; /* Mengatur lebar maksimal kontainer */
-            margin-top: 50px; /* Margin atas untuk memberi jarak dari atas */
+            max-width: 1000px; 
+            margin-top: 50px; 
         }
         .header {
             text-align: center;
@@ -31,10 +31,7 @@
 <body>
 
 <div class="container">
-    <div class="header">
-        <h1>Afifi Abdul hadi</h1>
-        <p>Pengembangan Keterampilan Teknologi Informasi</p>
-    </div>
+<a href="navbar2.php" class="btn btn-outline-secondary"><</a>
     <div class="card mb-3">
         <div class="row g-0">
             <div class="col-md-4">
@@ -51,7 +48,6 @@
                         Fasilitas kami meliputi laboratorium komputer yang modern, ruang kelas yang nyaman, dan akses ke berbagai sumber daya online.
                     </p>
                     <p class="card-text"><small class="text-muted">Terakhir diperbarui: Hari Ini</small></p>
-                    <a href="navbar.php" class="btn btn-primary btn-custom">Kembali ke Halaman Utama</a>
                 </div>
             </div>
         </div>

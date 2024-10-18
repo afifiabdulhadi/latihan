@@ -75,7 +75,7 @@
                     <input type="password" class="form-control" placeholder="Re-Password" required>
                 </div>
             </form>
-            <p type="submit" class="btn btn-register btn-block"><a href="navbar.php">REGISTER</></a></p>
+            <p type="submit" class="btn btn-register btn-block"><a href="navbar2.php">REGISTER</></a></p>
             <p class="mt-3"><a href="login.php">Kembali ke Login</a></p>
         </div>
     </div>
