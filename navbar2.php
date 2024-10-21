@@ -106,7 +106,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="navbar2.php"><i class="bi bi-house-door"></i> Home</a>
+                    <a class="nav-link active" aria-current="page" href="navbar2.php"></i> Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="berita.php">Berita</a>

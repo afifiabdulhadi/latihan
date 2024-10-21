@@ -16,40 +16,40 @@
         }
 
         .registration-form {
-            max-width: 500px; /* Memperbesar lebar form */
-            width: 100%; /* Memastikan lebar penuh pada perangkat kecil */
-            padding: 30px; /* Menambah padding pada form */
-            background-color: white; /* Warna latar belakang form putih */
-            border-radius: 10px; /* Membuat sudut lebih melengkung */
-            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Menguatkan bayangan */
+            max-width: 500px; 
+            width: 100%;
+            padding: 30px; 
+            background-color: darkgray; 
+            border-radius: 10px; 
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
             text-align: center;
         }
 
         .registration-form h2 {
             margin-bottom: 30px; /* Menambah jarak bawah */
-            color: #343a40; /* Warna teks gelap */
+            color: black; /* Warna teks gelap */
             font-size: 28px; /* Memperbesar ukuran font judul */
         }
 
         .registration-form a {
-            color: #007bff; /* Warna tautan biru */
-            font-size: 16px; /* Memperbesar ukuran font tautan */
+            color: black; 
+            font-size: 16px; 
         }
 
         .registration-form input {
-            font-size: 18px; /* Memperbesar ukuran font input */
-            padding: 10px; /* Menambah padding pada input */
+            font-size: 18px;
+            padding: 10px; 
         }
 
         .btn-register {
-            background-color: white; /* Warna tombol biru */
-            color: black; /* Teks tombol putih */
-            font-size: 18px; /* Memperbesar ukuran font tombol */
-            padding: 12px; /* Menambah padding pada tombol */
+            background-color: white; 
+            color: white; 
+            font-size: 18px;
+            padding: 12px; 
         }
 
         .btn-register:hover {
-            background-color: #000; /* Warna tombol biru lebih gelap saat hover */
+            background-color: black; 
         }
     </style>
 </head>
@@ -75,7 +75,7 @@
                     <input type="password" class="form-control" placeholder="Re-Password" required>
                 </div>
             </form>
-            <p type="submit" class="btn btn-register btn-block"><a href="navbar2.php">REGISTER</></a></p>
+            <p class="mt-3"><a href="navbar2.php">REGISTER</a></p>
             <p class="mt-3"><a href="login.php">Kembali ke Login</a></p>
         </div>
     </div>
