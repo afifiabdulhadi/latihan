@@ -27,7 +27,7 @@
                     <a class="nav-link" href="berita.php">Berita</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="tambahberita.php">TambahBerita</a>
+                    <a class="nav-link" href="tambahberita.php"></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Kontak</a>
