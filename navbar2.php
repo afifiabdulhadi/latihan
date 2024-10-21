@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar</title>
     <!-- Bootstrap -->
+    <link rel="icon" type="gambar/logo.png" href="gambar/logo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <style>
@@ -111,9 +112,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="berita.php">Berita</a>
                 </li>
-               <!-- <li class="nav-item">
-                    <a class="nav-link" href="tambahberita.php">TambahBerita</a>
-                </li> -->
                 <li class="nav-item">
                     <a class="nav-link" href="kontak.php">Kontak</a>
                 </li>
