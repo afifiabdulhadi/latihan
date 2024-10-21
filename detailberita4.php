@@ -9,9 +9,43 @@
 
 </head>
 <body>
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+    <a class="navbar-brand" href="#">
+                <img src="gambar/logo.png" alt="#" style="width: 40px; height: auto;">
+            </a>
+        <a class="navbar-brand" href="#">PPLG</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="navbar2.php"><i class="bi bi-house-door"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="berita.php">Berita</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tambahberita.php">TambahBerita</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kontak</a>
+                </li>
+            </ul>
+            <!-- Menu login -->
+            <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
+                    </li>
+                </ul>
+        </div>
+    </div>
+</nav>
 
   <!-- Container for the Detail Page -->
   <div class="container mt-5">
+  <a href="navbar2.php" class="btn btn-outline-secondary"><</a>
     <div class="row">
       <div class="col-md-10 offset-md-1">
         <div class="card shadow-lg">
@@ -35,11 +69,6 @@
               </p>
             </div>
           </div>
-        </div>
-
-        <!-- Back Button -->
-        <div class="mt-4">
-          <a href="berita.php" class="btn btn-secondary">Kembali ke Berita Utama</a>
         </div>
       </div>
     </div>

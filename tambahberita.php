@@ -6,14 +6,8 @@
     <title>Tambah Berita</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        .content {
-            margin-top: 20px;
-        }
-    </style>
 </head>
 <body>
-
 <div class="container content">
     <h1 class="text-center">Tambah Berita</h1>
     <form action="proses_tambah_berita.php" method="POST" enctype="multipart/form-data">
@@ -39,10 +33,6 @@
 
         <button type="submit" class="btn btn-primary btn-block">Simpan Berita</button>
     </form>
-
-    <div class="text-center mt-4">
-        <a href="berita.php" class="btn btn-secondary">Kembali ke Berita</a>
-    </div>
    
 </div>
 

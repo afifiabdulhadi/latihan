@@ -7,11 +7,10 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   
-  </style>
 </head>
 <body>
-<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-    <div class="container-fluid">
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top"  style="background-color: gray;!important">
+    <div class="container">
     <a class="navbar-brand" href="#">
                 <img src="gambar/logo.png" alt="#" style="width: 40px; height: auto;">
             </a>
@@ -22,53 +21,22 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><i class="bi bi-house-door"></i> Home</a>
+                    <a class="nav-link active" aria-current="page" href="navbar2.php"><i class="bi bi-house-door"></i> Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="bi bi-person"></i> Anggota</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Lainnya
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Profil</a></li>
-                        <li><a class="dropdown-item" href="#">Pengaturan</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Keluar</a></li>
-                    </ul>
+                    <a class="nav-link" href="berita.php">Berita</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tentang</a>
+                    <a class="nav-link" href="tambahberita.php">TambahBerita</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Kontak</a>
                 </li>
-                <li class="nav-item">
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Cari" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Cari</button>
-                    </form>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <img src="gambar/remove.png" alt="Avatar" class="rounded-circle" width="30" height="30">
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="userDropdown">
-                        <li><a class="dropdown-item" href="#">Profil</a></li>
-                        <li><a class="dropdown-item" href="#">Pengaturan</a></li>
-                        <li><hr class="dropdown-divider"></li>
-                        <li><a class="dropdown-item" href="#">Keluar</a></li>
-                    </ul>
-                </li>
             </ul>
-            <!-- Menu login dan register di kanan -->
+            <!-- Menu login -->
             <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="reqister.php"><i class="fas fa-user-plus"></i> Register</a>
                     </li>
                 </ul>
         </div>
@@ -76,7 +44,11 @@
 </nav>
 
 
+
+
+
   <div class="container">
+  <a href="navbar2.php" class="btn btn-outline-secondary"><</a>
     <div class="row">
       <div class="col-lg ">
         <div class="card">
@@ -97,6 +69,16 @@
     </div>
   </div>
 
+  <script>
+    window.onscroll = function() {
+        const navbar = document.getElementById('navbar');
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+            navbar.classList.add('scrolled');
+        } else {
+            navbar.classList.remove('scrolled');
+        }
+    };
+  </script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 </body>
 </html>

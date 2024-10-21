@@ -6,7 +6,6 @@
   <title>Web Berita</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="styles.css">
   
 </head>
 <body>
@@ -23,7 +22,7 @@
           <div class="card-body">
             <h5 class="news-title">Banjir Melanda Pangkalpinang</h5>
             <p class="news-body" style="width: 350px;">Hujan deras selama tiga hari berturut-turut menyebabkan banjir besar di daerah Pangkalpinang...</p>
-            <a href="detailberita1.php" class="btn btn-primary">Baca Selengkapnya</a>
+            <a href="detailberita1.php" class="btn btn-outline-secondary">Detail</a>
           </div>
         </div>
       </div>
@@ -35,7 +34,7 @@
           <div class="card-body">
             <h5 class="news-title">Anggota DPR Tertangkap Korupsi</h5>
             <p class="news-body"  style="width: 300px;">Seorang anggota DPR ditangkap oleh KPK atas dugaan kasus korupsi proyek infrastruktur...</p>
-            <a href="detailberita2.php" class="btn btn-primary">Baca Selengkapnya</a>
+            <a href="detailberita2.php" class="btn btn-outline-secondary">Detail</a>
           </div>
         </div>
       </div>
@@ -47,7 +46,7 @@
           <div class="card-body">
             <h5 class="news-title">Kecelakaan di Jalan Tol</h5>
             <p class="news-body" style="width: 310px;">Sebuah kecelakaan melibatkan mobil pribadi di jalan tol menyebabkan arus lalu lintas tersendat...</p>
-            <a href="detailberita3.php" class="btn btn-primary">Baca Selengkapnya</a>
+            <a href="detailberita3.php" class="btn btn-outline-secondary">Detail</a>
           </div>
         </div>
       </div>
@@ -63,7 +62,7 @@
           <div class="card-body">
             <h5 class="news-title">Prabowo dalam Perjalanan Politik</h5>
             <p class="news-body"  style="width: 300px;">Prabowo Subianto kembali mencalonkan diri sebagai presiden dengan dukungan dari berbagai partai...</p>
-            <a href="detailberita4.php" class="btn btn-primary">Baca Selengkapnya</a>
+            <a href="detailberita4.php" class="btn btn-outline-secondary">Detail</a>
           </div>
         </div>
       </div>
@@ -75,7 +74,7 @@
           <div class="card-body">
             <h5 class="news-title">Kebakaran Hutan Meluas</h5>
             <p class="news-body" style="width: 300px;">Kebakaran hutan yang terjadi di wilayah Sumatera semakin meluas dan mengakibatkan kerusakan lingkungan...</p>
-            <a href="detailberita5.php" class="btn btn-primary">Baca Selengkapnya</a>
+            <a href="detailberita5.php" class="btn btn-outline-secondary">Detail</a>
           </div>
         </div>
       </div>
@@ -87,7 +86,7 @@
           <div class="card-body">
             <h5 class="news-title">Tauran di Jakarta</h5>
             <p class="news-body"  style="width: 300px;">Sejumlah remaja tertangkap usai terlibat dalam aksi tawuran dngan kelopok lain di pusat kota Jakarta...</p>
-            <a href="detailberita6.php" class="btn btn-primary">Baca Selengkapnya</a>
+            <a href="detailberita6.php" class="btn btn-outline-secondary">Detail</a>
           </div>
         </div>
       </div>
