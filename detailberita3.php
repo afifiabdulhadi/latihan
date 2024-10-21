@@ -48,17 +48,23 @@
     <div class="row">
       <div class="col-lg">
         <div class="card">
-          <img src="gambar/prabowo.jpg" class="img-thumbnail rounded mx-auto d-block" style="width: 900px;" alt="Gambar Prabowo">
+          <img src="gambar/kec.jpeg" class="img-thumbnail rounded mx-auto d-block" style="width: 900px;" alt="Gambar Prabowo">
 
           <div class="card-body">
-            <h2 class="card-title text-center">Prabowo Subianto dan Perjalanan Politiknya</h2>
-            <p class="text-muted text-center">Ditulis pada: 10 Oktober 2024</p>
+            <h2 class="card-title text-center">Kecelakaan di Jalan Tol</h2>
+            <p class="text-muted">Dipublikasikan pada 21 Oktober 2024</p>
 
-            <div class="content-body">
-              <p>Prabowo Subianto merupakan salah satu tokoh penting dalam politik Indonesia. Dengan latar belakang militer yang kuat, Prabowo telah berhasil memposisikan dirinya sebagai salah satu kandidat terkuat dalam pemilihan presiden beberapa kali. Kepemimpinan dan visinya untuk Indonesia selalu menjadi pusat perhatian.</p>
-              <p>Pada tahun ini, Prabowo kembali mencalonkan diri sebagai calon presiden dengan dukungan dari berbagai partai politik besar. Salah satu visi utamanya adalah meningkatkan pertahanan negara, pendidikan nasional, dan meningkatkan ekonomi rakyat kecil. Dukungan terhadap Prabowo juga berasal dari kalangan muda yang melihatnya sebagai pemimpin yang tegas dan disiplin.</p>
-              <p>Pada kampanye terakhirnya, Prabowo menekankan pentingnya menjaga kedaulatan negara di tengah ketegangan global. Dia juga berjanji akan memperkuat kerja sama dengan negara tetangga untuk stabilitas kawasan.</p>
-            </div>
+            <div class="news-content">
+                    <p>Pada hari Senin pagi, sebuah kecelakaan tragis terjadi di salah satu ruas jalan tol yang mengakibatkan kemacetan panjang. Sebuah mobil pribadi dilaporkan hilang kendali dan menabrak pembatas jalan. Kejadian ini terjadi sekitar pukul 08.30 WIB, di mana kondisi lalu lintas sedang padat akibat jam sibuk.</p>
+                    
+                    <p>Menurut saksi mata, mobil tersebut melaju dengan kecepatan tinggi sebelum akhirnya hilang kendali. Tidak ada korban jiwa dalam insiden ini, namun pengemudi mengalami luka-luka dan segera dilarikan ke rumah sakit terdekat untuk mendapatkan perawatan lebih lanjut.</p>
+                    
+                    <p>Pihak berwenang saat ini masih melakukan penyelidikan lebih lanjut untuk mengetahui penyebab pasti kecelakaan ini. Mereka menghimbau kepada para pengendara untuk selalu berhati-hati dan mematuhi batas kecepatan yang telah ditentukan, terutama di jalan tol.</p>
+                    
+                    <p>Kecelakaan ini menyebabkan kemacetan sepanjang 5 kilometer. Petugas telah dikerahkan untuk mengatur lalu lintas dan membersihkan lokasi kejadian. Diperkirakan arus lalu lintas akan kembali normal dalam beberapa jam ke depan.</p>
+
+                    <p>Untuk informasi lebih lanjut mengenai perkembangan kecelakaan ini, silakan pantau terus berita terbaru di situs kami.</p>
+                </div>
           </div>
         </div>
       </div>

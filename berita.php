@@ -30,7 +30,7 @@
       <!-- Berita 2 -->
       <div class="col-md-4 mb-4">
         <div class="card">
-          <img src="gambar/dpr.jpeg" class="card-img-top news-img rounded mx-auto d-block" alt="Gambar DPR">
+          <img src="gambar/korup.jpg" class="card-img-top news-img rounded mx-auto d-block"  alt="Gambar DPR">
           <div class="card-body">
             <h5 class="news-title">Anggota DPR Tertangkap Korupsi</h5>
             <p class="news-body"  style="width: 300px;">Seorang anggota DPR ditangkap oleh KPK atas dugaan kasus korupsi proyek infrastruktur...</p>
