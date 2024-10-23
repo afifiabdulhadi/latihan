@@ -11,7 +11,7 @@
 <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
     <a class="navbar-brand" href="#">
-                <img src="gambar/logo.png" alt="#" style="width: 40px; height: auto;">
+                <img src="../gambar/logo.png" alt="#" style="width: 40px; height: auto;">
             </a>
         <a class="navbar-brand" href="#">PPLG</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,14 +43,13 @@
 </nav>
 
 
- <!-- Container for the Detail Page -->
  <div class="container mt-5">
-  <a href="navbar2.php" class="btn btn-outline-secondary"><</a>
+ <a href="../index.php" class="btn btn-outline-secondary" style="margin-top: 50px;" ><-</a>
     <div class="row">
       <div class="col-lg">
         <div class="card shadow-lg">
           <!-- Image for the article -->
-          <img src="gambar/kebakaranhutan.jpg"class="img-thumbnail rounded mx-auto d-block" style="width: 900px;"  alt="Gambar Berita">
+          <img src="../gambar/kebakaranhutan.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Gambar" style="width: 80%; max-width: 900px;">
           
           <!-- Body of the article -->
           <div class="card-body">

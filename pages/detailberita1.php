@@ -12,7 +12,7 @@
 <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top"  style="background-color: gray;!important">
     <div class="container">
     <a class="navbar-brand" href="#">
-                <img src="gambar/logo.png" alt="#" style="width: 40px; height: auto;">
+                <img src="../gambar/logo.png" alt="#" style="width: 40px; height: auto;">
             </a>
         <a class="navbar-brand" href="#">PPLG</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,10 +21,10 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="navbar2.php"><i class="bi bi-house-door"></i> Home</a>
+                    <a class="nav-link active" aria-current="page" href="navbar2.php"></i> Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="berita.php">Berita</a>
+                    <a class="nav-link" href=""></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="tambahberita.php"></a>
@@ -48,11 +48,11 @@
 
 
   <div class="container mt-5">
-  <a href="navbar2.php" class="btn btn-outline-secondary"><</a>
+  <a href="../index.php" class="btn btn-outline-secondary" style="margin-top: 50px;" ><-</a>
     <div class="row">
       <div class="col-lg ">
         <div class="card">
-          <img src="gambar/banjir.jpg" class="img-thumbnail rounded mx-auto d-block" style="width: 900px;" alt="Banjir di Pangkalpinang">
+          <img src="../gambar/banjir.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Gambar" style="width: 80%; max-width: 900px;">
           <div class="card-body">
             <h2 class="card-title text-center"> Hujan Deras Melanda Pangkal Pinang
             </h2>

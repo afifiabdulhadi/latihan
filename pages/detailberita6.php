@@ -12,7 +12,7 @@
 <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
     <a class="navbar-brand" href="#">
-                <img src="gambar/logo.png" alt="#" style="width: 40px; height: auto;">
+                <img src="../gambar/logo.png" alt="#" style="width: 40px; height: auto;">
             </a>
         <a class="navbar-brand" href="#">PPLG</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,11 +46,11 @@
 
 
   <div class="container mt-5">
-  <a href="navbar2.php" class="btn btn-outline-secondary"><</a>
+  <a href="../index.php" class="btn btn-outline-secondary" style="margin-top: 50px;" ><-</a>
     <div class="row">
       <div class="col-lg  ">
         <div class="card">
-          <img src="gambar/tauran.jpg" class="img-thumbnail rounded mx-auto d-block" style="width: 900px;"alt="Sekelompok Remaja Tawuran">
+          <img src="../gambar/tauran.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Gambar" style="width: 80%; max-width: 900px;">
 
           <div class="card-body">
             <h2 class="card-title text-center"> Sekelompok Remaja Tawuran</h2>
