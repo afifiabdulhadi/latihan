@@ -24,8 +24,7 @@
                 </div>
                 <a href="lupasandi.php">lupakatasandi</a>
                 <p type="submit" class="btn btn-register btn-block"><a href="reqister.php">Login</></a></p>
-                </form>
-            
+            </form>
         </div>
     </div>
 </div>
