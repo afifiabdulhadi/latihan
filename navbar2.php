@@ -110,10 +110,10 @@
                     <a class="nav-link active" aria-current="page" href="navbar2.php"></i> Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="berita.php">Berita</a>
+                    <a class="nav-link" href="pages/berita.php">Berita</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="kontak.php">Kontak</a>
+                    <a class="nav-link" href="pages/kontak.php">Kontak</a>
                 </li>
             </ul>
             <!-- Menu login -->
@@ -202,7 +202,7 @@
                         <strong class="fst-italic">Lokasi:</strong> Jakarta, Indonesia <br>
                         <strong class="fst-italic">Email:</strong> email1@example.com
                     </p>
-                    <a href="detailkami1.php" class="btn btn-outline-secondary">Detail</a>
+                    <a href="pages/detailkami1.php" class="btn btn-outline-secondary">Detail</a>
                 </div>
             </div>
 
@@ -215,7 +215,7 @@
                         <strong class="fst-italic">Lokasi:</strong> Bandung, Indonesia <br>
                         <strong class="fst-italic">Email:</strong> email2@example.com
                     </p>
-                    <a href="detailkami22.php" class="btn btn-outline-secondary">Detail</a> 
+                    <a href="pages/detailkami22.php" class="btn btn-outline-secondary">Detail</a> 
                 </div>
             </div>
         </div>
@@ -223,7 +223,7 @@
     
     <h3 class="fst-italic display-3 text-center">Berita</h3>
     <div class="container md-5">
-    <a href="tambahberita.php" class="btn btn-outline-secondary">TambahBerita</a>
+    <a href="pages/tambahberita.php" class="btn btn-outline-secondary">TambahBerita</a>
     <div class="row">
 
       <!-- Berita 1 -->
@@ -233,7 +233,7 @@
           <div class="card-body">
             <h5 class="news-title">Banjir Melanda Pangkalpinang</h5>
             <p class="news-body" style="width: 350px;">Hujan deras selama tiga hari berturut-turut menyebabkan banjir besar di daerah Pangkalpinang...</p>
-            <a href="detailberita1.php" class="btn btn-outline-secondary">Detail</a> 
+            <a href="pages/detailberita1.php" class="btn btn-outline-secondary">Detail</a> 
             </div>
         </div>
       </div>
@@ -245,7 +245,7 @@
           <div class="card-body">
             <h5 class="news-title">Anggota DPR Tertangkap Korupsi</h5>
             <p class="news-body"  style="width: 300px;">Seorang anggota DPR ditangkap oleh KPK atas dugaan kasus korupsi proyek infrastruktur...</p>
-            <a href="detailberita2.php" class="btn btn-outline-secondary">Detail</a> 
+            <a href="pages/detailberita2.php" class="btn btn-outline-secondary">Detail</a> 
             </div>
         </div>
       </div>
@@ -257,7 +257,7 @@
           <div class="card-body">
             <h5 class="news-title">Kecelakaan di Jalan Tol</h5>
             <p class="news-body" style="width: 310px;">Sebuah kecelakaan melibatkan mobil pribadi di jalan tol menyebabkan arus lalu lintas tersendat...</p>
-            <a href="detailberita3.php" class="btn btn-outline-secondary">Detail</a> 
+            <a href="pages/detailberita3.php" class="btn btn-outline-secondary">Detail</a> 
             </div>
         </div>
       </div>
@@ -273,7 +273,7 @@
           <div class="card-body">
             <h5 class="news-title">Prabowo dalam Perjalanan Politik</h5>
             <p class="news-body"  style="width: 300px;">Prabowo Subianto kembali mencalonkan diri sebagai presiden dengan dukungan dari berbagai partai...</p>
-            <a href="detailberita4.php" class="btn btn-outline-secondary">Detail</a> 
+            <a href="pages/detailberita4.php" class="btn btn-outline-secondary">Detail</a> 
             </div>
         </div>
       </div>
@@ -285,7 +285,7 @@
           <div class="card-body">
             <h5 class="news-title">Kebakaran Hutan Meluas</h5>
             <p class="news-body" style="width: 300px;">Kebakaran hutan yang terjadi di wilayah Sumatera semakin meluas dan mengakibatkan kerusakan lingkungan...</p>
-            <a href="detailberita5.php" class="btn btn-outline-secondary">Detail</a> 
+            <a href="pages/detailberita5.php" class="btn btn-outline-secondary">Detail</a> 
             </div>
         </div>
       </div>
@@ -297,7 +297,7 @@
           <div class="card-body">
             <h5 class="news-title">Tauran di Jakarta</h5>
             <p class="news-body"  style="width: 300px;">Sejumlah remaja tertangkap usai terlibat dalam aksi tawuran dngan kelopok lain di pusat kota Jakarta...</p>
-            <a href="detailberita6.php" class="btn btn-outline-secondary">Detail</a> 
+            <a href="pages/detailberita6.php" class="btn btn-outline-secondary">Detail</a> 
             </div>
         </div>
       </div>

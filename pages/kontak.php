@@ -18,7 +18,7 @@
 </head>
 <body>
     <div class="container my-5">
-    <a href="navbar2.php" class="btn btn-outline-secondary"><</a> 
+    <a href="../index.php" class="btn btn-outline-secondary"><</a> 
         <h2 class="text-center mb-4">Hubungi Kami</h2>
         <div class="contact-form">
             <form>

@@ -1,0 +1,122 @@
+body {
+    padding-top: 56px;
+}
+
+.scrolled {
+    background-color: white !important;
+    transition: background-color 0.3s;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+}
+
+.header-img {
+    border-radius: 120%;
+    max-width: 50%;
+    width: 50%;
+    height: auto;
+}
+.side-img {
+position: absolute;
+width: 20%; 
+height: auto;
+top: 50%;
+transform: translateY(-50%);
+}
+
+.left-img {
+left: 80%;
+margin-left: -80px;
+}
+
+.right-img {
+right: 80%;
+margin-right: -80px;
+}
+@media (max-width: 576px) { /* Aturan untuk layar ponsel */
+.side-img, .header-img {
+width: 20%; /* Membuat semua gambar memenuhi lebar container */
+margin: 5px 0; /* Mengurangi jarak antar gambar */
+}
+}
+
+.about-us {
+    padding: 40px 0;
+    text-align: center;
+} 
+
+.about-us img {
+    max-width: 30%;
+    height: auto;
+}
+.profile-img {
+    width: 250px; 
+    height: 250px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-bottom: 20px; 
+}
+.profile-container {
+    text-align: center; 
+}
+
+.btn-detail {
+    margin-top: 10px;
+    
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+<!--reqister-->
+body {
+    background-color: #f8f9fa; /* Latar belakang putih */
+    height: 100vh; /* Mengatur tinggi tampilan */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Menjaga form di tengah halaman */
+}
+
+.registration-form {
+    max-width: 500px; 
+    width: 100%;
+    padding: 30px; 
+    background-color: darkgray; 
+    border-radius: 10px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); 
+    text-align: center;
+}
+
+.registration-form h2 {
+    margin-bottom: 30px; /* Menambah jarak bawah */
+    color: black; /* Warna teks gelap */
+    font-size: 28px; /* Memperbesar ukuran font judul */
+}
+
+.registration-form a {
+    color: black; 
+    font-size: 16px; 
+}
+
+.registration-form input {
+    font-size: 18px;
+    padding: 10px; 
+}
+
+.btn-register {
+    background-color: white; 
+    color: white; 
+    font-size: 18px;
+    padding: 12px; 
+}
+
+.btn-register:hover {
+    background-color: black; 
+}
+
+

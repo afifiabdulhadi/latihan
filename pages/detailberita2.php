@@ -46,7 +46,7 @@
 
 
   <div class="container mt-5">
-  <a href="navbar2.php" class="btn btn-outline-secondary"><</a>
+  <a href="../index.php" class="btn btn-outline-secondary"><</a>
     <div class="row">
       <div class="col-lg">
         <div class="card">

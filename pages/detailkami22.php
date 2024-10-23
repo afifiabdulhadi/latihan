@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Afifi Abdul Hadi</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="pages/stylenav.css">
+
     <style>
         body {
             background-color: #f8f9fa;
@@ -31,11 +33,11 @@
 <body>
 
 <div class="container">
-<a href="navbar2.php" class="btn btn-outline-secondary"><</a>
+<a href="../index.php" class="btn btn-outline-secondary"><</a>
     <div class="card mb-3">
         <div class="row g-0">
             <div class="col-md-4">
-                <img src="gambar/iip.jpeg" class="img-fluid rounded-start" alt="Foto Wiki Ramadan">
+                <img src="../gambar/iip.jpeg" class="img-fluid rounded-start" alt="Foto Wiki Ramadan">
             </div>
             <div class="col-md-8">
                 <div class="card-body">
