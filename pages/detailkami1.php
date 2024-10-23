@@ -5,28 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detail Wiki Ramadan</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-color: #f8f9fa; 
-        }
-        .container {
-            max-width: 1000px; 
-            margin-top: 50px; 
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 30px; /* Margin bawah untuk memberi jarak */
-        }
-        .card {
-            border: none; /* Menghilangkan border card */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Menambahkan efek bayangan halus */
-        }
-        .btn-custom {
-            display: block;
-            margin: 20px auto; /* Menyusun tombol di tengah */
-            width: 200px; /* Lebar tombol */
-        }
-    </style>
+    <link rel="stylesheet" href="pages/styledet.css">
+
 </head>
 <body>
 
