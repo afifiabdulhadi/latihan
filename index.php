@@ -23,7 +23,7 @@
                 <img src="gambar/cs.jpeg" alt="Gambar" class="header-img">
                 <img src="gambar/images.jpg" class="container side-img right-img" alt="Gambar Kanan">
             </div>
-            <div class="container col-sm-12 col-lg-4 col-md-6">
+            <div class="container col-sm-12 col-lg-4 col-md-6" style="margin-top: 50px;">
                 <h3 class="fst-italic">Selamat datang! Ayo berkolaborasi dan </h3>
                 <h3 class="fst-italic">menciptakan sesuatu yang hebat </h3>
             </div>
@@ -62,9 +62,8 @@
         </div>
     </div>
 
-    <h3 class="fst-italic display-3 text-center">Berita</h3>
-    <div class="container md-5">
-        <a href="../tambahberita.php" class="btn btn-outline-secondary">TambahBerita</a>
+    <h3 class="fst-italic display-3 text-center" style="margin-top: 250px;">Berita</h3>
+    <div class="container md-5" style="margin-top: 50px;">
         <div class="row">
 
             <!-- Berita 1 -->
@@ -163,7 +162,9 @@
         </div>
     </div>
 
-
+    <div class="container mt-5">
+    <a href="../tambahberita.php" class="btn btn-outline-secondary">TambahBerita</a>
+    </div>
 
     <!-- Bootstrap JS Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
