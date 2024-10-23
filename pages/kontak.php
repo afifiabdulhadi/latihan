@@ -42,7 +42,7 @@
                     <label for="message" class="form-label">Pesan</label>
                     <textarea class="form-control" id="message" rows="4" placeholder="Pesan" required></textarea>
                 </div>
-                <button type="submit" class="btn btn-primary w-100">Kirim</button>
+                <button type="submit" class="btn btn-secondary w-100">Kirim</button>
             </form>
         </div>
     </div>

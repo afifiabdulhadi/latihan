@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0-alpha1/css/bootstrap.min.css">
     <style>
         body {
-            background-color: #f8f9fa; /* Latar belakang putih */
-            height: 100vh; /* Mengatur tinggi tampilan */
+            background-color: #f8f9fa; 
+            height: 100vh; 
             display: flex;
             justify-content: center;
-            align-items: center; /* Menjaga form di tengah halaman */
+            align-items: center; /
         }
 
         .registration-form {
@@ -26,9 +26,9 @@
         }
 
         .registration-form h2 {
-            margin-bottom: 30px; /* Menambah jarak bawah */
-            color: black; /* Warna teks gelap */
-            font-size: 28px; /* Memperbesar ukuran font judul */
+            margin-bottom: 30px; 
+            color: black; 
+            font-size: 28px; 
         }
 
         .registration-form a {
