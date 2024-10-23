@@ -4,25 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        .login-container {
-            padding: 30px; /* Padding for the login form */
-            border-radius: 8px; /* Rounded corners */
-            background-color: #f8f9fa; /* Light background for contrast */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
-        }
-        .bg-danger {
-            color: white; /* Text color for better visibility */
-        }
-        h2 {
-            margin-bottom: 20px; /* Space below the heading */
-        }
-        button {
-            width: 100%; /* Full width button */
-        }
-    </style>
+    <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
 
