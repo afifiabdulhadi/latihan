@@ -46,11 +46,7 @@
 
 
   <div class="container mt-5">
-<<<<<<< HEAD
-  <a href="../index.php" class="btn btn-outline-secondary"><</a>
-=======
   <a href="../index.php" class="btn btn-outline-secondary" style="margin-top: 50px;" ><-</a>
->>>>>>> 92f1f1a210ca4c4c0ad4407b908e1a8d7fa7842b
     <div class="row">
       <div class="col-lg">
         <div class="card">
