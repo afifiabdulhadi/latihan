@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Detail Berita</title>
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
 
 </head>
 <body>
@@ -21,21 +21,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-                    <a class="nav-link" href="index.php">Home</a>
+                    <a class="nav-link" href="../index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pages/berita.php">Berita</a>
+                <a class="nav-link" href="reqister.php">Kontak</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="tambahberita.php"></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="reqiater.php">Kontak</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
+                        <a class="nav-link" href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
                     </li>
                 </ul>
         </div>
