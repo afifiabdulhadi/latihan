@@ -29,7 +29,7 @@
                     <a class="nav-link" href="tambahberita.php"></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Kontak</a>
+                    <a class="nav-link" href="reqister.php">Kontak</a>
                 </li>
             </ul>
             <!-- Menu login -->
@@ -45,7 +45,7 @@
 
  <div class="container mt-5">
  <a href="../index.php" class="btn btn-outline-secondary" style="margin-top: 50px;" ><-</a>
-    <div class="row">
+    <div class="row" style="margin-top: 10px;">
       <div class="col-lg">
         <div class="card shadow-lg">
           <!-- Image for the article -->

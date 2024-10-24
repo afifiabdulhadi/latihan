@@ -9,7 +9,7 @@
   
 </head>
 <body>
-<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top"  style="background-color: gray;!important">
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
     <a class="navbar-brand" href="#">
                 <img src="../gambar/logo.png" alt="#" style="width: 40px; height: auto;">
@@ -20,21 +20,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="navbar2.php"></i> Home</a>
+            <li class="nav-item">
+                    <a class="nav-link" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href=""></a>
+                    <a class="nav-link" href="pages/berita.php"></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="tambahberita.php"></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Kontak</a>
+                    <a class="nav-link" href="reqister.php">Kontak</a>
                 </li>
             </ul>
-            <!-- Menu login -->
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
                     </li>
@@ -49,9 +45,9 @@
 
   <div class="container mt-5">
   <a href="../index.php" class="btn btn-outline-secondary" style="margin-top: 50px;" ><-</a>
-    <div class="row">
+    <div class="row" style="margin-top: 10px;">
       <div class="col-lg ">
-        <div class="card">
+        <div class="card shadow-lg">
           <img src="../gambar/banjir.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Gambar" style="width: 80%; max-width: 900px;">
           <div class="card-body">
             <h2 class="card-title text-center"> Hujan Deras Melanda Pangkal Pinang
