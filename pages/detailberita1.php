@@ -24,13 +24,10 @@
                     <a class="nav-link active" aria-current="page" href="navbar2.php"></i> Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href=""></a>
+                    <a class="nav-link" href="pages/berita.php">Berita</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="tambahberita.php"></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Kontak</a>
+                    <a class="nav-link" href="pages/kontak.php">Kontak</a>
                 </li>
             </ul>
             <!-- Menu login -->

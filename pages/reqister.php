@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Registrasi</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0-alpha1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../pages/stylereq.css">
+    <link rel="stylesheet" href="../css/stylereq.css">
 
 </head>
 
@@ -14,7 +14,7 @@
     <div class="container">
         <div class="registration-form">
             <div class="mb-4">
-                <i class="fas fa-user-circle fa-5x text-primary"></i> <!-- Memperbesar ikon -->
+                <i class="fas fa-user-circle fa-5x text-primary"></i>
             </div>
             <h2>Registrasi</h2>
             <form>
