@@ -19,11 +19,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="navbar2.php"><i class="bi bi-house-door"></i> Home</a>
+            <li class="nav-item">
+                    <a class="nav-link" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="berita.php">Berita</a>
+                    <a class="nav-link" href="pages/berita.php">Berita</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="tambahberita.php"></a>
@@ -32,10 +32,9 @@
                     <a class="nav-link" href="reqister.php">Kontak</a>
                 </li>
             </ul>
-            <!-- Menu login -->
             <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
+                        <a class="nav-link" href="pages/login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
                     </li>
                 </ul>
         </div>

@@ -27,7 +27,10 @@
                     <a class="nav-link" href="pages/berita.php"></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="reqister.php">Kontak</a>
+                    <a class="nav-link" href="pages/berita.php">Berita</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="reqister.php">Kontak</a>
                 </li>
             </ul>
             <ul class="navbar-nav ms-auto">
