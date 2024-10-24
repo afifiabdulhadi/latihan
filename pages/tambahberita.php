@@ -30,7 +30,7 @@
             <textarea class="form-control" id="deskripsi" name="deskripsi" rows="5" required></textarea>
         </div>
 
-        <button type="submit" class="btn btn-primary btn-block">Simpan Berita</button>
+        <button type="submit" class="btn btn-secondary btn-block">Simpan Berita</button>
     </form>
    
 </div>

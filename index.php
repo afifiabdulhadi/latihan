@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Navbar</title>
     <!-- Bootstrap -->
+    <link rel="icon" type="gambar/logo.png" href="gambar/logo.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="pages/stylenav.css">
@@ -39,9 +40,9 @@
                     <img src="gambar/wiki.jpeg" class="profile-img" alt="Foto Profil 1" />
                     <h2>Wiki Ramadan</h2>
                     <p>
-                        <strong class="fst-italic">Posisi:</strong> Web Developer <br>
-                        <strong class="fst-italic">Lokasi:</strong> Jakarta, Indonesia <br>
-                        <strong class="fst-italic">Email:</strong> email1@example.com
+                        <strong class="fst-italic">Posisi:</strong> Programmer <br>
+                        <strong class="fst-italic">Lokasi:</strong> Padang, Sumatra Barat <br>
+                        <strong class="fst-italic">Email:</strong> wikiramadan8@gmail.com
                     </p>
                     <a href="pages/detailkami1.php" class="btn btn-outline-secondary">Detail</a>
                 </div>
@@ -53,8 +54,8 @@
                     <h2>Afifi Abdul Hadi</h2>
                     <p>
                         <strong class="fst-italic">Posisi:</strong> UI/UX Designer <br>
-                        <strong class="fst-italic">Lokasi:</strong> Bandung, Indonesia <br>
-                        <strong class="fst-italic">Email:</strong> email2@example.com
+                        <strong class="fst-italic">Lokasi:</strong> Bandung, Sumatra Barat <br>
+                        <strong class="fst-italic">Email:</strong> Afifihadi7@gmail.com
                     </p>
                     <a href="pages/detailkami22.php" class="btn btn-outline-secondary">Detail</a>
                 </div>
@@ -62,7 +63,7 @@
         </div>
     </div>
 
-    <h3 class="fst-italic display-3 text-center" style="margin-top: 250px;">Berita</h3>
+    <h3 class="fst-italic display-3 text-center" style="margin-top: 120px;">Berita</h3>
     <div class="container md-5" style="margin-top: 50px;">
         <div class="row">
 
@@ -160,11 +161,9 @@
                 </div>
 
         </div>
+        <a href="pages/tambahberita.php" class="btn btn-outline-secondary">TambahBerita</a>
     </div>
 
-    <div class="container mt-5">
-    <a href="../tambahberita.php" class="btn btn-outline-secondary">TambahBerita</a>
-    </div>
 
     <!-- Bootstrap JS Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
@@ -178,6 +177,8 @@
             }
         };
     </script>
+    
+    <?php include 'pages/footer.php'; ?>
 
 </body>
 

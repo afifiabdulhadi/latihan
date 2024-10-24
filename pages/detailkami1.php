@@ -11,7 +11,7 @@
 <body>
 
 <div class="container">
-<a href="../index.php" class="btn btn-outline-secondary"><</a>
+<a href="../index.php" class="btn btn-outline-secondary" style="margin-top: 30px;"><</a>
     <div class="card mb-3">
         <div class="row g-0">
             <div class="col-md-4">
@@ -21,7 +21,7 @@
                 <div class="card-body">
                     <h5 class="card-title">Wiki Ramadan</h5>
                     <p class="card-text">
-                        Kami adalah lembaga pendidikan yang berfokus pada pengembangan keterampilan di bidang teknologi informasi. 
+                        Saya adalah lembaga pendidikan yang berfokus pada pengembangan keterampilan di bidang teknologi informasi. 
                         Kami menawarkan berbagai program pelatihan dan sertifikasi untuk membantu mencapai tujuan mereka.
                     </p>
                     <p class="card-text">

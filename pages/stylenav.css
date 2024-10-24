@@ -71,11 +71,11 @@ margin: 5px 0; /* Mengurangi jarak antar gambar */
 
 <!--reqister-->
 body {
-    background-color: #f8f9fa; /* Latar belakang putih */
-    height: 100vh; /* Mengatur tinggi tampilan */
+    background-color: #f8f9fa; 
+    height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center; /* Menjaga form di tengah halaman */
+    align-items: center; 
 }
 
 .registration-form {

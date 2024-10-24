@@ -8,7 +8,7 @@ body {
 .header {
     text-align: center;
     margin-top: 20px;
-    margin-bottom: 20px; /* Margin bawah untuk memberi jarak */
+    margin-bottom: 40px; /* Margin bawah untuk memberi jarak */
 }
 .card {
     border: none; /* Menghilangkan border card */

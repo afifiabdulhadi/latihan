@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form Registrasi</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0-alpha1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="stylenav.css">
+    <link rel="stylesheet" href="../pages/stylereq.css">
 
 </head>
 
