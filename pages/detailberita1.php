@@ -5,11 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Detail Berita: Pangkalpinang Banjir</title>
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
+
   
 </head>
 <body>
-<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top"  style="background-color: gray;!important">
+<nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container">
     <a class="navbar-brand" href="#">
                 <img src="../gambar/logo.png" alt="#" style="width: 40px; height: auto;">
@@ -20,10 +21,11 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="navbar2.php"></i> Home</a>
+            <li class="nav-item">
+                    <a class="nav-link" href="../index.php">Home</a>
                 </li>
                 <li class="nav-item">
+
                     <a class="nav-link" href=""></a>
                 </li>
                 <li class="nav-item">
@@ -35,6 +37,8 @@
             </ul>
             <!-- Menu login -->
             <ul class="navbar-nav">
+                <a class="nav-link" href="reqister.php">Kontak</a>
+                </li>
                     <li class="nav-item">
                         <a class="nav-link" href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
                     </li>
@@ -49,9 +53,9 @@
 
   <div class="container mt-5">
   <a href="../index.php" class="btn btn-outline-secondary" style="margin-top: 50px;" ><-</a>
-    <div class="row">
+    <div class="row" style="margin-top: 10px;">
       <div class="col-lg ">
-        <div class="card">
+        <div class="card shadow-lg">
           <img src="../gambar/banjir.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Gambar" style="width: 80%; max-width: 900px;">
           <div class="card-body">
             <h2 class="card-title text-center"> Hujan Deras Melanda Pangkal Pinang

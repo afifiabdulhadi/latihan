@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Detail Berita Kebakaran Hutan</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
 </head>
 <body>
 <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -20,18 +20,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-                    <a class="nav-link" href="index.php">Home</a>
+                    <a class="nav-link" href="../index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pages/berita.php">Berita</a>
+                <a class="nav-link" href="reqister.php">Kontak</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="pages/kontak.php">Kontak</a>
-                </li>
-            </ul>
-            <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
+                        <a class="nav-link" href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
                     </li>
                 </ul>
         </div>
@@ -41,7 +36,7 @@
 
  <div class="container mt-5">
  <a href="../index.php" class="btn btn-outline-secondary" style="margin-top: 50px;" ><-</a>
-    <div class="row">
+    <div class="row" style="margin-top: 10px;">
       <div class="col-lg">
         <div class="card shadow-lg">
           <!-- Image for the article -->
