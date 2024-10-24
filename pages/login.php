@@ -23,8 +23,8 @@
                                 <label for="password">Password:</label>
                                 <input type="password" class="form-control" id="password" name="password" required>
                             </div>
-                            <button type="submit" class="btn btn-primary btn-block">Login</button>
-                            <a href="lupasandi.php" class="d-block text-center mt-2">Lupa Kata Sandi?</a>
+                            <a href="register.php" class="d-block mt-2">lupa katasandi</a>
+                            <a href="lupasandi.php" class="d-block text-center mt-2">login</a>
                         </form>
                     </div>
                 </div>
