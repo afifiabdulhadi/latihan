@@ -22,7 +22,7 @@
                     <a class="nav-link" href="../index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="reqister.php">Kontak</a>
+                <a class="nav-link" href="kontak.php">Kontak</a>
                 </li>
                     <li class="nav-item">
                         <a class="nav-link" href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a>
