@@ -25,7 +25,23 @@
                     <a class="nav-link" href="../index.php">Home</a>
                 </li>
                 <li class="nav-item">
+<<<<<<< HEAD
                 <a class="nav-link" href="kontak.php">Kontak</a>
+=======
+
+                    <a class="nav-link" href=""></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tambahberita.php"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kontak</a>
+                </li>
+            </ul>
+            <!-- Menu login -->
+            <ul class="navbar-nav">
+                <a class="nav-link" href="reqister.php">Kontak</a>
+>>>>>>> e6804e75bb7fe442d398025002d88273a487c202
                 </li>
                     <li class="nav-item">
                         <a class="nav-link" href="login.php"><i class="fas fa-sign-in-alt"></i> Login</a>

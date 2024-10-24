@@ -13,9 +13,6 @@
                     <a class="nav-link" href="index.php">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pages/berita.php">Berita</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="pages/kontak.php">Kontak</a>
                 </li>
             </ul>
