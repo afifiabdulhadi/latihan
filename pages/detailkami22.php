@@ -12,7 +12,7 @@
 
 <div class="container">
 <a href="../index.php" class="btn btn-outline-secondary" style="margin-top: 50px;"><-</a>
-    <div class="card mb-3">
+    <div class="card mb-3" style="margin-top: 10px;">
         <div class="row g-0">
             <div class="col-md-4">
                 <img src="../gambar/iip.jpeg" class="img-fluid rounded-start" alt="Foto Wiki Ramadan">

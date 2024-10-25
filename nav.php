@@ -3,7 +3,7 @@
     <a class="navbar-brand" href="#">
                 <img src="gambar/logo.png" alt="#" style="width: 40px; height: auto;">
             </a>
-        <a class="navbar-brand" href="#">PPLG</a>
+        <a class="navbar-brand" href="pages/rpl.php">PPLG</a> 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -11,6 +11,9 @@
             <ul class="navbar-nav ms-auto">
             <li class="nav-item">
                     <a class="nav-link" href="index.php">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pages/berita.php">Berita</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="pages/kontak.php">Kontak</a>
