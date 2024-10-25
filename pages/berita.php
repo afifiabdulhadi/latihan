@@ -6,7 +6,7 @@
   <title>Web Berita</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css">
-  
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 <nav id="navbar" class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -24,6 +24,9 @@
                     <a class="nav-link" href="../index.php">Home</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" style="color: black" href="berita.php">Berita</a>
+                </li>
+                <li class="nav-item">
                 <a class="nav-link" href="kontak.php">Kontak</a>
                 </li>
                     <li class="nav-item">
@@ -36,10 +39,10 @@
 
 
 
-<h1 class="display-3 text-center" style="margin-top: 50px;">Berita</h1>
+<h1 class="display-3 text-center" style="margin-top: 100px;">Berita</h1>
 
   <!-- Container for news articles -->
-  <div class="container md-5">
+  <div class="container md-5" style="margin-top: 50px;">
     <div class="row">
 
       <!-- Berita 1 -->

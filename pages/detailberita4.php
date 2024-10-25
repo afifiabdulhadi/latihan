@@ -41,7 +41,7 @@
       <div class="col-lg">
         <div class="card shadow-lg">
           <!-- Image for the article -->
-          <img src="../gambar/prabowo.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Gambar" style="width: 80%; max-width: 900px;">
+          <img src="../gambar/prabowo.jpg" class="img-thumbnail mx-auto d-block" alt="Gambar" style="width: 80%; max-width: 900px;  margin-top: 10px;">
           
           <!-- Body of the article -->
           <div class="card-body">

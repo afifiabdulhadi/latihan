@@ -80,3 +80,6 @@ h1{
 }
 
 
+.navbar-nav .nav-item .nav-link.berita {
+  color: black !important;
+}

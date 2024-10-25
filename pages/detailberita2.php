@@ -41,7 +41,7 @@
     <div class="row" style="margin-top: 10px;">
       <div class="col-lg">
         <div class="card shadow-lg">
-          <img src="../gambar/korup.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Gambar" style="width: 80%; max-width: 900px;">
+          <img src="../gambar/korup.jpg" class="img-thumbnail mx-auto d-block" alt="Gambar" style="width: 80%; max-width: 900px; margin-top: 10px;">
           <div class="card-body">
             <div class="content-body">
             <h2 class="text-center">Anggota DPR Tertangkap Korupsi</h2>

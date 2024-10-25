@@ -41,7 +41,7 @@
     <div class="row" style="margin-top: 10px;">
       <div class="col-lg ">
         <div class="card shadow-lg">
-          <img src="../gambar/tauran.jpg" class="img-thumbnail rounded mx-auto d-block" alt="Gambar" style="width: 80%; max-width: 900px;">
+          <img src="../gambar/tauran.jpg" class="img-thumbnail mx-auto d-block" alt="Gambar" style="width: 80%; max-width: 900px;  margin-top: 10px;">
 
           <div class="card-body">
             <h2 class="card-title text-center"> Sekelompok Remaja Tawuran</h2>
