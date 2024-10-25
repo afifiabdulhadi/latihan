@@ -46,8 +46,8 @@
 </nav>
 
 
-    <div class="container my-5">
-    <a href="../index.php" class="btn btn-outline-secondary"><</a> 
+    <div class="container mt-5">
+    <a href="../index.php" class="btn btn-outline-secondary" style="margin-top: 50px;"><-</a> 
         <h2 class="text-center mb-4">Hubungi Kami</h2>
         <div class="contact-form">
             <form>

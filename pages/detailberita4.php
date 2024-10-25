@@ -24,6 +24,9 @@
                     <a class="nav-link" href="../index.php">Home</a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link" href="berita.php">Berita</a>
+                </li>
+                <li class="nav-item">
                 <a class="nav-link" href="kontak.php">Kontak</a>
                 </li>
                     <li class="nav-item">

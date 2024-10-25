@@ -24,8 +24,10 @@
             <li class="nav-item">
                     <a class="nav-link" href="../index.php">Home</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="berita.php">Berita</a>
+                </li>
             </ul>
-            <!-- Menu login -->
             <ul class="navbar-nav">
                 <a class="nav-link" href="reqister.php">Kontak</a>
                 </li>
