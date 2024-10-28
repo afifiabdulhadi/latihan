@@ -69,7 +69,7 @@
             <!-- Berita 1 -->
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="gambar/banjir.jpg" class="card-img-top news-img rounded mx-auto d-block"
+                    <img src="gambar/banjir.jpg" class="card-img-top rounded mx-auto d-block"
                         alt="Gambar Banjir">
                     <div class="card-body">
                         <h5 class="news-title">Banjir Melanda Pangkalpinang</h5>
@@ -83,7 +83,7 @@
                 <!-- Berita 2 -->
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="gambar/dpr.jpeg" class="card-img-top news-img rounded mx-auto d-block"
+                        <img src="gambar/dpr.jpeg" class="card-img-top rounded mx-auto d-block"
                             alt="Gambar DPR">
                         <div class="card-body">
                             <h5 class="news-title">Anggota DPR Tertangkap Korupsi</h5>
@@ -98,7 +98,7 @@
                 <!-- Berita 3 -->
                 <div class="col-md-4 mb-4">
                     <div class="card">
-                        <img src="gambar/kec.jpeg" class="card-img-top news-img rounded mx-auto d-block "
+                        <img src="gambar/kec.jpeg" class="card-img-top rounded mx-auto d-block "
                             alt="Gambar Kecelakaan">
                         <div class="card-body">
                             <h5 class="news-title">Kecelakaan di Jalan Tol</h5>
@@ -115,7 +115,7 @@
                     <!-- Berita 4 -->
                     <div class="col-md-4 mb-4">
                         <div class="card">
-                            <img src="gambar/prabowo.jpg" class="card-img-top news-img rounded mx-auto d-block"
+                            <img src="gambar/prabowo.jpg" class="card-img-top rounded mx-auto d-block"
                                 alt="Gambar Prabowo">
                             <div class="card-body">
                                 <h5 class="news-title">Prabowo dalam Perjalanan Politik</h5>
@@ -130,7 +130,7 @@
                     <!-- Berita 5 -->
                     <div class="col-md-4 mb-4">
                         <div class="card">
-                            <img src="gambar/kebakaranhutan.jpg" class="card-img-top news-img rounded mx-auto d-block"
+                            <img src="gambar/kebakaranhutan.jpg" class="card-img-top rounded mx-auto d-block"
                                 alt="Gambar Kebakaran Hutan">
                             <div class="card-body">
                                 <h5 class="news-title">Kebakaran Hutan Meluas</h5>
@@ -145,7 +145,7 @@
                     <!-- Berita 6 -->
                     <div class="col-md-4 mb-4">
                         <div class="card">
-                            <img src="gambar/tauran.jpg" class="card-img-top news-img rounded mx-auto d-block"
+                            <img src="gambar/tauran.jpg" class="card-img-top rounded mx-auto d-block"
                                 alt="Gambar Tauran">
                             <div class="card-body">
                                 <h5 class="news-title">Tauran di Jakarta</h5>
@@ -163,7 +163,7 @@
         <a href="pages/tambahberita.php" class="btn btn-outline-secondary">TambahBerita</a>
     </div>
 
-
+ 
     <!-- Bootstrap JS Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
     <script>
